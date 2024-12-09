@@ -31,55 +31,75 @@ header .navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   margin-left: 5rem;
+   margin-right: 5rem;
     
 }
 
+
 header .navbar ul li {
     position: relative;
-    float: left;
+  
 }
+
+
 
 header .navbar ul li a {
     text-decoration: none;
     padding: 40px;
     display: block;
     color: var(--primary-color);
-    font-weight: 40;
     font-size: 30px;
+    font-family:sans-serif;
+    font-weight: 1000;
  
 }
 
-header .navbar ul li a:visited {
-   color: var(--primary-color);
-   text-decoration: none;
-   
-}
+
+
 
 header .navbar ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
+   
+    
 }
+
+
 
 header .navbar ul li ul {
     position: absolute;
+    top: 100%;
     left: 0;
-    width: 200px;
-    background: #FFF;
+    width: 250px;
+    background: var(--secondary-color);
     display: none;
+    z-index: 100;
 }
 
-header .navbar ul li ul li {
-    width: 100%;
-    border-top: 1px solid rgba(0,0,0,0.1);
+
+
+header .navbar ul li ul li a{
+    padding: 35px; 
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
-header .navbar ul li ul li ul {
-    left: 200px;
-    top: 0;
+header .navbar ul li ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
+
+
+header .navbar ul li:hover > ul {
+    display: block; /* Viser submenuen */
+
+}
+
 
 header .navbar ul li:focus-within > ul ,
-header .nvabar ul li:hover > ul {
+header .navbar ul li:hover > ul {
     display: block;
 }
 
