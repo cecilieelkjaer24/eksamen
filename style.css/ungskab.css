@@ -107,6 +107,28 @@ h5 {
 }
 
 
+.konkurrence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.konkurrence img {
+    height: auto;
+    width: 60%;
+    border: 5px solid var(--primary-color);
+}
+
+.konkurrence a{
+    
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
 /*Navbarrens redigering*/
 header .navbar ul {
     list-style-type: none;
