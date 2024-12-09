@@ -15,6 +15,7 @@ body {
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
+    background-color: black;
     height: 100vh;
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -25,6 +26,7 @@ body {
     margin-left: 35rem;
     
 }
+
 
 h1 {
     text-align: center;
@@ -126,3 +128,31 @@ header label {
     cursor: pointer;
     display: none;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--primary-color);
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    margin-left: 15px;
+}
+
+#adresse {
+    width: 30%;
+    margin-bottom: -5px;
+
+}
+
+
+#insta {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 25px;
+}
+
