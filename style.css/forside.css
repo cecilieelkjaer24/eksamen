@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 
+.logo {
+    position: absolute;
+    width: 350px;
+    z-index: 10;
+    margin-left: 35rem;
+}
+
 .landingp {
     width: 100%;
     height: auto;
-}
-
-.logo {
-    width: 20%;
-    height: auto;
+    position: relative;
 }
