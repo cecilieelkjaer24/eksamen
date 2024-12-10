@@ -42,6 +42,7 @@ h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 2rem;
+    margin: 15px 0;
 }
 
 .koeb {
@@ -55,6 +56,18 @@ h2 {
 
 .vaelg {
     margin-bottom: 20px;
+}
+
+select, button {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0 0 100px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    background-color: white;
 }
 
 /*Navbarrens redigering*/
