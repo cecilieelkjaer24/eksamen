@@ -14,9 +14,10 @@ body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500vh;
+    height: 247vh;
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .logo {
     position: absolute;
@@ -26,10 +27,9 @@ body {
 }
 
 
-
 h1 {
     text-align: center;
-    margin-top: 350px;
+  
     color: var(--primary-color);
     font-size: 3rem;
 }
@@ -68,6 +68,66 @@ select, button {
     border: 1px solid var(--primary-color);
     text-align: center;
     background-color: white;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    background-color: var(--primary-color);
+    color: whitesmoke;
+
+}
+
+.sidste a{
+    text-decoration: none;
+}
+.bekræft {
+  
+    width: 100%;
+    background-color: white;
+}
+
+.bekræft p{
+    font-size: 1.5rem;
+   color: #0040ff;
+   width: 100%;
+  
+   
+   
+}
+
+#poster {
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+}   
+
+p#billettekst {
+    text-align:start;
+    margin-left:2px;
+    margin-bottom: 2px;
+}
+
+.koeb {
+    margin-top: 400px;
+}
+
+.koeb img {
+    width: 100%;
+}
+form#billet-form {
+    display: flex
+;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Navbarrens redigering*/
