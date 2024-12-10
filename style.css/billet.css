@@ -41,9 +41,21 @@ p {
 h2 {
     text-align: center;
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
+.koeb {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 8px 800px var(--primary-color);
+}
+
+.vaelg {
+    margin-bottom: 20px;
+}
 
 /*Navbarrens redigering*/
 header .navbar ul {
