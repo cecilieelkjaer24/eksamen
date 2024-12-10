@@ -45,6 +45,39 @@ header {
     
 }
 
+form.nyhedsbrev {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #000000;
+    width: 100%;
+ 
+}
+
+form.nyhedsbrev h2 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+ 
+}
+
+form.nyhedsbrev label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form.nyhedsbrev input {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input#email, input#fornavn {
+    text-align: center;
+}
+
 .instagram {
     text-align: center;
     margin-bottom: 2rem;
