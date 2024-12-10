@@ -25,6 +25,7 @@
                         <li><a href="program.html">Kommende events</a></li>
                         <li><a href="#">Køb billet</a></li>
                         <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="oensk.html">Ønsk en kunstner</a></li>
                     </ul>
                 </li>
     
@@ -59,10 +60,29 @@
     <section class="billede2">
     <h1>Velkommen til Radar</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste inventore optio ullam quod voluptates officiis voluptatem, deserunt hic assumenda? Aliquam dolorum libero assumenda, tenetur quisquam eveniet ipsam expedita omnis accusantium?</p>
+        <img src="img/billede2.jpg" alt="billede">
     </section>
    
+  
+    <form class="nyhedsbrev" action="kalender.html" method="post">
         <h2>Hold dig opdateret og tilmeld dig vores nyhedsbrev!</h2>
+        <label for="fornavn">Fornavn:</label>
+        <input type="text" id="fornavn" name="fornavn" placeholder="Indtast dit fornavn" required>
 
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Indtast din email" required>
+        
+        <section class="betingelser">
+            <label>
+                <input type="checkbox" id="betingelser" name="betingelser" required>
+                <p>Jeg accepterer Radars handelsbetingelser og at Radar må sende mig information omkring nye events mm.</p>
+                
+            </label>
+        </section>
+
+        <button type="submit">Tilmeld</button>
+    </form>
+    
     <section class="instagram">
         <h2>Følg med på Instagram og deltag i vores konkurrencer</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste inventore optio ullam quod voluptates officiis voluptatem, deserunt hic assumenda? Aliquam dolorum libero assumenda, tenetur quisquam eveniet ipsam expedita omnis accusantium?</p>    
