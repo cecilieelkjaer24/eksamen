@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff00d9;
+    --secondary-color:#0040ff;
+}
+body {
+    background-image: url(../img/baggrund.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 490vh;
+    font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 350px;
+    margin-left: 35rem;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 350px;
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+p {
+    margin: 50px 150px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.tidligere {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 20px;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.tidligere img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid var(--primary-color);
+}
+
+.oensk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin:150px 206px 150px 206px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+   }
+
+   .oensk h2 {
+    color: var(--primary-color);
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+   }
+ 
+
+form.oensk input#email, input#kunstner {
+    display: block;
+    margin-bottom: 35px;
+    font-weight: bold;
+    min-height: 70px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    
+}
+
+form.oensk input::placeholder, input ::placeholder {
+    color: var(--primary-color);
+    
+}
+
+.oensk button {
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    font-weight: 800;
+    min-height: 90px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.9rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+
+#her button {
+    display: block;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    font-weight: 800;
+    min-height: 90px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.9rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+
+.betingelser p {
+    font-size: 1rem;
+    margin-top: -1.4rem;
+}
+input#betingelser {
+    width: 20%;
+}
+
+/*Navbarrens redigering*/
+header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+header .navbar ul li {
+    position: relative;
+
+}
+
+
+
+header .navbar ul li a {
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 1000;
+ 
+}
+
+header .navbar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+   
+    
+}
+
+
+header .navbar ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--secondary-color);
+    display: none;
+    z-index: 100;
+}
+
+
+
+header .navbar ul li ul li a{
+    padding: 35px; 
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+header .navbar ul li ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+  
+}
+
+
+header .navbar ul li:hover > ul {
+    display: block; /* Viser submenuen */
+
+}
+
+
+header .navbar ul li:focus-within > ul ,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+.footer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--primary-color);
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    margin-left: 15px;
+}
+
+#adresse {
+    width: 30%;
+    margin-bottom: -5px;
+
+}
+
+
+#insta {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 25px;
+}
+

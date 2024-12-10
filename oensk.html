@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ønsk en kunstner</title>
-    <link rel="stylesheet" href="style.css/program.css">
+    <link rel="stylesheet" href="style.css/oensk.css">
 </head>
 <body>
     
@@ -57,16 +57,38 @@
         </nav>
 </header>
    <main>
-    <h1>Kommende events</h1>
+    <h1>Ønsk en kunstner</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste inventore optio ullam quod voluptates officiis voluptatem, deserunt hic assumenda? Aliquam dolorum libero assumenda, tenetur quisquam eveniet ipsam expedita omnis accusantium?</p>
    
-
-    <section class="event">
-        <img src="program/baryl.webp" alt="baryl">
-        <img src="program/gorgeos.webp" alt="gorgeos">
-        <a href="ungskab.html"><img src="program/ung-event.webp" alt="ung-skab"></a>
-        <img src="program/iamjj.webp" alt="iamjj">
+    <h2>Tidligere kunstnere</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste inventore optio ullam quod voluptates officiis voluptatem, deserunt hic assumenda? Aliquam dolorum libero assumenda, tenetur quisquam eveniet ipsam expedita omnis accusantium?</p>
+   
+    <section class="tidligere">
+       <img src="tidligere/minds.webp" alt="mindsof99">
+       <img src="tidligere/lord-siva.webp" alt="lord-siva">
+       <img src="tidligere/barselona.webp" alt="barselona">
+       <img src="tidligere/jada.webp" alt="jada">
+       <img src="tidligere/node.webp" alt="node">
+       <img src="tidligere/max.webp" alt="maximillian">
     </section>
+
+    <form class="oensk" action="oensk.html" method="post">
+        <h2>Vil du gerne have indflydelse på, hvem der spiller på Radar? Nendenfor kan du ønske en artist, som du mener bør spille på Radar!</h2>
+        <label for="kunstner">Ønsk her:</label>
+        <input type="text" id="kunstner" name="kunstner" placeholder="Artistens navn" required>
+
+        <label for="email">Din Email:</label>
+        <input type="text" id="email" name="email" placeholder="Indtast din email" required>
+        
+        <button type="submit">Ønsk</button>
+    </form>
+
+
+    <form class="oensk" action="oensk.html" method="post">
+        <h2>Ønsker du at spille på Radar? Skriv til os</h2>
+        <button id="her" type="submit">Her</button>
+    
+    </form>
    
 </main>
         
