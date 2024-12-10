@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Køb billet
+    </title>
+    <link rel="stylesheet" href="style.css/billet.css">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" class="logo"></a>
+       
+
+        <input type="checkbox" id="menu-bar"><!-- Dette er burgermenuen når skærmen bliver mindre -->
+        <label for="menu-bar"><img class="menubillede" src="img/logo.lyserood.png" alt="menu" ></label>
+           
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" id="program">Program</a>
+                    <ul>
+                        <li><a href="program.html">Kommende events</a></li>
+                        <li><a href="billet.html">Køb billet</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="oensk.html">Ønsk en kunstner</a></li>
+                    </ul>
+                </li>
+    
+                <li><a href="index.html">Information</a>
+                </li>
+    
+                <li><a href="index.html">Støt Radar</a>
+                    <ul>
+                        <li><a href="#">Støt</a></li>
+                        <li><a href="#">Del dine minder</a></li>
+                        <li><a href="#">Konkurrencer +</a>
+                            <ul>
+                                <li><a href="#">Vind billetter</a></li>
+                                <li><a href="#">Vind en gratis drink</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+    
+                <li><a href="index.html">Om Radar</a>
+                    <ul>
+                        <li><a href="#">Vores værdier</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Bliv frivillig</a></li>
+                      
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+</header>
+    <main>
+        <section class="koeb">
+            <h1>Køb billet</h1>
+
+            <section class="vaelg">
+                <h2>Vælg et event</h2>
+                <select id="eventvalg">
+                    <option value="" disabled selected>Vælg et event...</option>
+                    <option value="BARYL">BARYL</option>
+                    <option value="GORGEOS">GORGEOS</option>
+                    <option value="UNG-SKAB">UNG-SKAB</option>
+                    <option value="IAMJJ">IAMJJ</option>
+                </select>
+            </section>
+            <section class="billetkategori">
+                <h2>Vælg billettype</h2>
+                <form id="billet-form">
+                    <label>
+                        <input type="radio" name="kategori" value="voksen" required>
+                        Voksen +25
+                    </label>
+                    <label>
+                        <input type="radio" name="kategori" value="studerende" required>
+                        Studerende
+                    </label>
+                    <label>
+                        <input type="radio" name="kategori" value="barn" required>
+                        Under 15 år
+                    </label>
+                </form>
+            </section>
+            <section class="sidste">
+                <h3> Køb din billet</h3>
+                <button id="koeb-billet">Køb billet</button>
+            </section>
+            <section class="bekræft">
+                <h2>Bekræft køb</h2>
+                <p id="billettekst">Tillykke! Vi glæder os til at se jer<3</p>
+            </section>
+        </section>
+  
+    </main>
+        
+   
+    <footer class="footer">
+        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" id="logo"></a>
+        <a href="index.html"><img src="img/adresse.png" alt="adresse" id="adresse"></a>
+        <a href="index.html"><img src="img/instalogo.png" alt="instagram logo" id="insta"></a>
+    </footer>
+</body>
+</html>
