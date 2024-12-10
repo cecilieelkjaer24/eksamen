@@ -36,9 +36,14 @@ header {
 
 
 
+.billede2 img{
+    width: 70%;
+    height: auto;
+}
+
 h1 {
     text-align: center;
-    margin-top: 1300px;
+    margin-top: 800px;
     color: var(--primary-color);
     font-size: 5rem;
 }
