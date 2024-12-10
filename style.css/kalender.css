@@ -37,30 +37,15 @@ h1 {
     font-size: 3rem;
 }
 
-p {
-    margin: 50px 150px;
+.kalender {
+    display: flex;
+    justify-content: center;
 }
 
-h2 {
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 3rem;
-}
-
-.event {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(2, auto);
-   gap: 20px;
-   width: 70%;
-   margin: 0 auto;
-}
-
-.event img {
-    width: 100%;
+.kalender img{
+    width: 50%;
     height: auto;
-    display: block;
-    border: 2px solid var(--primary-color);
+
 }
 
 /*Navbarrens redigering*/
