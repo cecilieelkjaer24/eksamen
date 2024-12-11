@@ -51,6 +51,7 @@ h2 {
     position: relative;
     width: fit-content;
     display: inline-block;
+    margin-left: 450px;
 }
 
 .circle {
@@ -65,9 +66,9 @@ h2 {
     position: relative;
 }
 
-.circle 1{
-    width: 150px;
-    height: 150px;
+.circle1{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: rgb(13, 0, 255);
     display: flex;
@@ -75,7 +76,8 @@ h2 {
     justify-content: center;
     position: absolute;
     align-items: center;
-    margin-top: -450px;
+    margin-top: -400px;
+    margin-left: -300px;
 }
 
 /*Navbarrens redigering*/
