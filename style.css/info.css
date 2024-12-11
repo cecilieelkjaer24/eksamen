@@ -25,6 +25,10 @@ body {
     
 }
 
+#information {
+    color: var(--secondary-color);
+}
+
 
 
 .info a {
