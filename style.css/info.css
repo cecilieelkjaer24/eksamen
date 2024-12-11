@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff00d9;
+    --secondary-color:#0040ff;
+}
+body {
+    background-image: url(../img/baggrund.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 275vh;
+    font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 350px;
+    margin-left: 35rem;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 350px;
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+p {
+    margin: 50px 150px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.ikoner {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 20px;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.ikoner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid var(--primary-color);
+}
+
+/*Navbarrens redigering*/
+header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+header .navbar ul li {
+    position: relative;
+
+}
+
+
+
+header .navbar ul li a {
+    text-decoration: none;
+    padding: 40px;
+    display: block;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 1000;
+ 
+}
+
+header .navbar ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+   
+    
+}
+
+
+header .navbar ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--secondary-color);
+    display: none;
+    z-index: 100;
+}
+
+
+
+header .navbar ul li ul li a{
+    padding: 35px; 
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+header .navbar ul li ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+  
+}
+
+
+header .navbar ul li:hover > ul {
+    display: block; /* Viser submenuen */
+
+}
+
+
+header .navbar ul li:focus-within > ul ,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+.footer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--primary-color);
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+    margin-left: 15px;
+}
+
+#adresse {
+    width: 30%;
+    margin-bottom: -5px;
+
+}
+
+
+#insta {
+    width: 100%;
+    margin-left: -5px;
+    margin-top: 25px;
+}
+
