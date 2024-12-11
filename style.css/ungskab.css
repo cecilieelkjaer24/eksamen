@@ -24,6 +24,10 @@ body {
     margin-left: 35rem;
     
 }
+#program {
+    color: var(--secondary-color);
+}
+
 
 
 p {
