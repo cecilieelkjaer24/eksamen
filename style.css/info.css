@@ -14,7 +14,7 @@ body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 475vh;
+    height: 675vh;
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -46,6 +46,7 @@ h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .ikoner {
@@ -84,9 +85,13 @@ article#person, #ticket, #priser, #lokation, #garderobe, #drikkevare {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 20px;
 }
 
-
+#barkort {
+    width: 50%;
+    margin: 30px 0;
+}
 
 /*Navbarrens redigering*/
 header .navbar ul {
