@@ -47,11 +47,18 @@ h2 {
     font-size: 3rem;
 }
 
-.infoprahic {
-    
+
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(13, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
-
-
 
 /*Navbarrens redigering*/
 header .navbar ul {
