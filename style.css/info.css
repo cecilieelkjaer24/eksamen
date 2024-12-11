@@ -45,18 +45,23 @@ h2 {
 
 .ikoner {
    display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(2, auto);
-   gap: 20px;
-   width: 70%;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, auto);
+   align-items: center;
+   gap: 55px;
+   width: 50%;
    margin: 0 auto;
 }
 
 .ikoner img {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
-    border: 2px solid var(--primary-color);
+    
+}
+
+#ikon4 {
+    width: 50%;
 }
 
 /*Navbarrens redigering*/
