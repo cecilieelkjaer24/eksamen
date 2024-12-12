@@ -375,6 +375,7 @@ header label {
         padding: 20px;
         display: flex;
         justify-content: end;
+        height: 80vh;
         } 
 
         main {
