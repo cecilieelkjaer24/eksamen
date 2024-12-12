@@ -285,36 +285,32 @@ header label {
 }
 
 @media (max-width: 809px) {
-    header .navbar ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
    
-    }
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: end;
+     
+    } 
+   header .navbar {
+    display: none;
+   }
+   
+   header label {
+    display: block;
+    position: absolute;
 
- 
-    header .navbar ul li {
-        position: relative;
-    }
+}
 
-    header .navbar ul li a {
-        text-decoration: none;
-        display: block;
-        color: var(--primary-color);
-        font-weight: 1000;
-        font-size: 20px;
-      
-    }
+    #menu-bar:checked ~ .navbar {
+    display: block;
+}
 
-    .logo {
-        position: absolute;
-        width: 200px;
-        height: auto;
-        top: 17%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
+    .menubillede {
+    width: 50px;
+   
+
+}
+
 }
 
