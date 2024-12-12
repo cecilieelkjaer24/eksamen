@@ -406,43 +406,48 @@ header label {
         margin: 10px;
          }
                     
-                    form.nyhedsbrev input#email, input#fornavn {
-                        display: block;
-                        margin-bottom: 35px;
-                        font-weight: bold;
-                        min-height: 70px;
-                        width: 200px;
-                        text-align: center;
-                        font-size: 1.1rem;
-                        border-radius: 10px;
+        form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        margin-bottom: 35px;
+        font-weight: bold;
+        min-height: 70px;
+        width: 200px;
+        text-align: center;
+        font-size: 1.1rem;
+        border-radius: 10px;
                         
-                    }
+        }
                 
-                    }
+                   
 
-                    .footer {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: center;
-                        border-top: 2px solid var(--primary-color);
-                    }
+        input#betingelser {
+        width: 50%;
+        }
+
+        .nyhedsbrev button {
+        margin-bottom: 17px;
+        }
+
+        .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid var(--primary-color);
+        }
                     
-                    #logo {
-                        display: none;
-                    }
+        #logo {
+        display: none;
+        }
                     
-                    #adresse {
-                        width: 30%;
-                        margin-bottom: -5px;
-                    
-                    }
-                    
-                    
-                    #insta {
-                        width: 100%;
+        #adresse {
+        width: 30%;
+        margin-bottom: -5px;
+        }
                     
                     
-                    }
+        #insta {
+        width: 100%;
+        }
                 
-            
+                }
