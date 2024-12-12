@@ -343,10 +343,41 @@ header label {
             position: absolute;
             width: 180px;
             height: auto;
-            top: 17%;
+            top: 15%;
             left: 50%;
             transform: translate(-50%, -50%); 
         }
     
         }
     
+        @media (max-width: 478px) {
+   
+            header {
+                padding: 20px;
+                display: flex;
+                justify-content: end;
+             
+            } 
+        
+            header .navbar {
+            display: none;
+            }
+           
+            header label {
+            display: block;
+            position: absolute;
+            
+        
+            }
+        
+            #menu-bar:checked ~ .navbar {
+            display: block;
+            }
+        
+            .menubillede {
+            width: 50px;
+           
+        
+            }
+        
+            }
