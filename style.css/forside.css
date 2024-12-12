@@ -350,34 +350,98 @@ header label {
     
         }
     
-        @media (max-width: 478px) {
+ @media (max-width: 478px) {
    
-            header {
-                padding: 20px;
-                display: flex;
-                justify-content: end;
-             
-            } 
-        
-            header .navbar {
-            display: none;
-            }
-           
-            header label {
-            display: block;
-            position: absolute;
+    body {
+        background-image: url(../img/landingp.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+        width: 110%;
+        font-size: 1rem;
+        font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        margin-top: 0px;
+    }
+
+    h2, .nyhedsbrev h2 {
+        font-size: 2rem;
+    }
+   
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: end;
+        } 
+
+        main {
+        margin: 20px;
+        }
+                
+        header .navbar {
+        display: none;
+        }
+                
+        header label {
+        display: block;
+        position: absolute;
+                    
+                
+        }
+                
+        #menu-bar:checked ~ .navbar {
+        display: block;
+        }
+                
+        .menubillede {
+        width: 50px;
+
+        }
+                
+        .nyhedsbrev {
+        margin: 10px;
+         }
+                    
+                    form.nyhedsbrev input#email, input#fornavn {
+                        display: block;
+                        margin-bottom: 35px;
+                        font-weight: bold;
+                        min-height: 70px;
+                        width: 200px;
+                        text-align: center;
+                        font-size: 1.1rem;
+                        border-radius: 10px;
+                        
+                    }
+                
+                    }
+
+                    .footer {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-top: 2px solid var(--primary-color);
+                    }
+                    
+                    #logo {
+                        display: none;
+                    }
+                    
+                    #adresse {
+                        width: 30%;
+                        margin-bottom: -5px;
+                    
+                    }
+                    
+                    
+                    #insta {
+                        width: 100%;
+                    
+                    
+                    }
+                
             
-        
-            }
-        
-            #menu-bar:checked ~ .navbar {
-            display: block;
-            }
-        
-            .menubillede {
-            width: 50px;
-           
-        
-            }
-        
-            }
