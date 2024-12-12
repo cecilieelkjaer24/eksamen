@@ -30,7 +30,7 @@ header {
     position: absolute;
     width: 300px;
     height: auto;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
@@ -134,33 +134,8 @@ h2 {
     font-size: 3rem;
     
 }
-@media (max-width: 907px) {
-    header .navbar ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        max-width: 100%;
-   
-    }
 
- 
-    header .navbar ul li {
-        position: relative;
-        font-size: 5rem;
-    
-    }
-    header .navbar ul li a {
-        text-decoration: none;
-        display: block;
-        color: var(--primary-color);
-        font-weight: 1000;
-      
-    }
-}
 
-@media (max-width: 790px) {
-}
 
 /*Navbarrens redigering*/
 header .navbar ul {
@@ -271,5 +246,75 @@ header label {
     width: 100%;
     margin-left: -5px;
    
+}
+
+
+@media (max-width: 907px) {
+    header .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+   
+    }
+
+ 
+    header .navbar ul li {
+        position: relative;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary-color);
+        font-weight: 1000;
+        font-size: 1.7rem;
+      
+    }
+
+    .logo {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+}
+
+@media (max-width: 809px) {
+    header .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+   
+    }
+
+ 
+    header .navbar ul li {
+        position: relative;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary-color);
+        font-weight: 1000;
+        font-size: 20px;
+      
+    }
+
+    .logo {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
 }
 
