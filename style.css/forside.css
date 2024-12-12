@@ -21,13 +21,13 @@ body {
 }
 
 header {
-    position: relative; /* Nødvendig for at 'absolute' elementer kan referere til denne container */
-    height: 100vh; /* Eller en anden højde for header */
+    position: relative; 
+    height: 100vh; 
 }
 
 .logo {
     position: absolute;
-    width: 20%;
+    width: 300px;
     height: auto;
     top: 20%;
     left: 50%;
