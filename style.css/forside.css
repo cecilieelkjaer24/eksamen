@@ -134,6 +134,28 @@ h2 {
     
 }
 
+@media screen and (max-width: 907px) {
+    
+    /*Navbarrens redigering*/
+    header .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+
+}
+header .navbar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 1000;
+ 
+}
+    
+}
 
 
 /*Navbarrens redigering*/
@@ -141,7 +163,7 @@ header .navbar ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 10px;
     
 }
 
