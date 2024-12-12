@@ -133,28 +133,23 @@ h2 {
     font-size: 3rem;
     
 }
-
-@media screen and (max-width: 907px) {
-    
-    /*Navbarrens redigering*/
+@media (max-width: 907px) {
     header .navbar ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    max-width: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
+    }
 
-}
-header .navbar ul li a {
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    color: var(--primary-color);
-    font-size: 20px;
-    font-weight: 1000;
- 
-}
-    
+    header .navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary-color);
+        font-size: 10px;
+        font-weight: 1000;
+      
+    }
 }
 
 
@@ -163,7 +158,8 @@ header .navbar ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    justify-content: space-around;
+    overflow: hidden;
     
 }
 
@@ -177,7 +173,8 @@ header .navbar ul li {
 
 header .navbar ul li a {
     text-decoration: none;
-    padding: 40px;
+    padding: 40px 10px;
+    margin: 0;
     display: block;
     color: var(--primary-color);
     font-size: 30px;
