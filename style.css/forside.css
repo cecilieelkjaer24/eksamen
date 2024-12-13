@@ -306,12 +306,15 @@ header label {
         display: block;
         position: absolute;
         cursor: pointer;
+        
                     
                 
         }
                 
         #menu-bar:checked ~ .navbar {
         display: block;
+        margin-top: 30px;
+       
         }
                 
         .menubillede {
@@ -325,28 +328,40 @@ header label {
             flex-direction: column;
             max-width: 100%;
             justify-content: center;
+            align-items: center;
             background-color: #0040ff;
+           
         }
+
+
+       
         
 
       
         header .navbar ul li a:hover {
             background: var(--primary-color);
             color: var(--secondary-color);
+            
            
             
         }
 
+       
+    
+
         header .navbar ul li ul li a{
-            padding: 35px; 
-            font-size: 30px;
+            padding: 20px; 
+            font-size: 25px;
             font-weight: 600;
-            color: var(--primary-color);
+            color: var(--secondary-color);
+            background-color: var(--primary-color);
+         
         }
         
         header .navbar ul li ul li a:hover {
             background: var(--primary-color);
             color: var(--secondary-color);
+            
           
         }
         
@@ -451,9 +466,9 @@ header label {
     }
    
    
-        .nyhedsbrev {
-        margin: 10px;
-         }
+    .nyhedsbrev {
+    margin: 10px;
+    }
                     
         form.nyhedsbrev input#email, input#fornavn {
         display: block;
