@@ -286,32 +286,82 @@ header label {
 
 @media (max-width: 809px) {
    
+    
     header {
         padding: 20px;
         display: flex;
         justify-content: end;
-     
-    } 
+        height: 80vh;
+        } 
 
-    header .navbar {
-    display: none;
-    }
-   
-    header label {
-    display: block;
-    position: absolute;
+        main {
+        margin: 20px;
+        }
+                
+        header .navbar {
+        display: none;
+        }
+                
+        header label {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+                    
+                
+        }
+                
+        #menu-bar:checked ~ .navbar {
+        display: block;
+        }
+                
+        .menubillede {
+        width: 50px;
 
-    }
+        }
 
-    #menu-bar:checked ~ .navbar {
-    display: block;
-    }
+        header .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+            justify-content: center;
+            background-color: #0040ff;
+        }
+        
 
-    .menubillede {
-    width: 50px;
-   
+      
+        header .navbar ul li a:hover {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+           
+            
+        }
 
-    }
+        header .navbar ul li ul li a{
+            padding: 35px; 
+            font-size: 30px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        header .navbar ul li ul li a:hover {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+          
+        }
+        
+        
+        header .navbar ul li:hover > ul {
+            display: block; /* Viser submenuen */
+        
+        }
+        
+        
+        header .navbar ul li:focus-within > ul ,
+        header .navbar ul li:hover > ul {
+            display: block;
+        }
+                
 
     .nyhedsbrev {
         margin: 10px;
@@ -335,7 +385,7 @@ header label {
 
     }
 
-    @media (max-width: 1050px) {
+    @media (min-width: 1050px) {
         header .navbar ul {
             list-style-type: none;
             display: flex;
@@ -400,84 +450,7 @@ header label {
         font-size: 2rem;
     }
    
-    
-    header {
-        padding: 20px;
-        display: flex;
-        justify-content: end;
-        height: 80vh;
-        } 
-
-        main {
-        margin: 20px;
-        }
-                
-        header .navbar {
-        display: none;
-        }
-                
-        header label {
-        display: block;
-        position: absolute;
-        cursor: pointer;
-                    
-                
-        }
-                
-        #menu-bar:checked ~ .navbar {
-        display: block;
-        }
-                
-        .menubillede {
-        width: 50px;
-
-        }
-
-        header .navbar ul {
-            list-style-type: none;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            max-width: 100%;
-            align-items: center;
-            background-color: var(--secondary-color);
-        }
-
-        
-
-      
-        header .navbar ul li a:hover {
-            background: var(--primary-color);
-            color: var(--secondary-color);
-           
-            
-        }
-
-        header .navbar ul li ul li a{
-            padding: 35px; 
-            font-size: 30px;
-            font-weight: 600;
-            color: var(--primary-color);
-        }
-        
-        header .navbar ul li ul li a:hover {
-            background: var(--primary-color);
-            color: var(--secondary-color);
-          
-        }
-        
-        
-        header .navbar ul li:hover > ul {
-            display: block; /* Viser submenuen */
-        
-        }
-        
-        
-        header .navbar ul li:focus-within > ul ,
-        header .navbar ul li:hover > ul {
-            display: block;
-        }
-                
+   
         .nyhedsbrev {
         margin: 10px;
          }
