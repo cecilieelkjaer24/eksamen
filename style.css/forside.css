@@ -452,6 +452,31 @@ header label {
            
             
         }
+
+        header .navbar ul li ul li a{
+            padding: 35px; 
+            font-size: 30px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        header .navbar ul li ul li a:hover {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+          
+        }
+        
+        
+        header .navbar ul li:hover > ul {
+            display: block; /* Viser submenuen */
+        
+        }
+        
+        
+        header .navbar ul li:focus-within > ul ,
+        header .navbar ul li:hover > ul {
+            display: block;
+        }
                 
         .nyhedsbrev {
         margin: 10px;
