@@ -20,9 +20,11 @@ body {
 
 .logo {
     position: absolute;
-    width: 350px;
-    margin-left: 35rem;
-    
+    width: 300px;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 #program {
@@ -173,3 +175,32 @@ header label {
     margin-top: 25px;
 }
 
+@media (max-width: 990px) {
+
+    
+    body {
+        height: 200vh;
+    }
+
+    header .navbar ul li a {
+        font-size: 1.7rem;
+        white-space: nowrap;
+    }
+
+    .logo {
+        position: absolute;
+        width: 180px;
+        height: auto;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 150px;
+        color: var(--primary-color);
+        font-size: 3rem;
+    }
+    
+    }
