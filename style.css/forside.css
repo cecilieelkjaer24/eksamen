@@ -66,6 +66,10 @@ header {
     margin-bottom: 20px;
    }
  
+   section.instagram {
+    display: flex;
+   
+}
 
 form.nyhedsbrev input#email, input#fornavn {
       display: block;
@@ -116,11 +120,11 @@ input#betingelser {
     margin-bottom: 2rem;
 }
 
-.instagram img{
-    width: 50%;
+.instagram img {
+    width: 122%;
     height: auto;
-    
 }
+
 h1 {
     text-align: center;
     margin-top: 800px;
@@ -145,6 +149,11 @@ p#undertekst {
     margin: 0 29px;
 }
 
+p#instatekst {
+
+    text-align: start;
+    text-wrap: auto;
+}
 label {
     display: flex;
     flex-direction: row;
