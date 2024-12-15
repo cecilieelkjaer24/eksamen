@@ -34,9 +34,8 @@ body {
 
 h1 {
     text-align: center;
-  
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 p {

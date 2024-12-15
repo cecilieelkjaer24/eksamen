@@ -48,18 +48,17 @@ header {
 
 .nyhedsbrev {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
     min-height: 100px;
-    margin:150px 300px 150px 300px;
+    margin: 0 35px;
     border-radius: 15px;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 15px;
     color: var(--primary-color);
     margin-bottom: 15px;
-   }
+}
 
    .nyhedsbrev h2 {
     color: var(--primary-color);
@@ -69,14 +68,15 @@ header {
  
 
 form.nyhedsbrev input#email, input#fornavn {
-    display: block;
-    margin-bottom: 35px;
-    font-weight: bold;
-    min-height: 70px;
-    width: 300px;
-    text-align: center;
-    font-size: 1.1rem;
-    border-radius: 10px;
+      display: block;
+        margin-bottom: 2px;
+        font-weight: bold;
+        min-height: 46px;
+        width: 300px;
+        text-align: center;
+        font-size: 1.1rem;
+        border-radius: 0px;
+    
     
 }
 
@@ -84,6 +84,10 @@ form.nyhedsbrev input::placeholder, input ::placeholder {
     color: var(--primary-color);
     
 }
+
+section.nyhedsb {
+    margin: 21px 52px 87px 52px;
+} 
 
 .nyhedsbrev button {
     display: block;
@@ -98,10 +102,12 @@ form.nyhedsbrev input::placeholder, input ::placeholder {
 }
 
 
+
 .betingelser p {
     font-size: 1rem;
-    margin-top: -1.4rem;
+    margin: 22px 4px;
 }
+
 input#betingelser {
     width: 20%;
 }
@@ -124,7 +130,7 @@ h1 {
 
 p {
     color: var(--primary-color);
-    text-align: center;
+    text-align: start;
     margin: 50px 100px;
 }
 
@@ -135,7 +141,16 @@ h2 {
     
 }
 
+p#undertekst {
+    margin: 0 29px;
+}
 
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
 
 /*Navbarrens redigering*/
 header .navbar ul {
