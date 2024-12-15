@@ -65,7 +65,7 @@ form.nyhedsbrev input#email, input#fornavn {
         display: block;
         font-weight: bold;
         min-height: 46px;
-        width: 452px;
+        width: 400px;
         text-align: center;
         font-size: 1.1rem;
     
@@ -82,13 +82,15 @@ form.nyhedsbrev input::placeholder, input ::placeholder {
 
 .nyhedsbrev button {
     display: block;
+   
     font-weight: 800;
     min-height: 70px;
-    width: 300px;
+    width: 150px;
     text-align: center;
     font-size: 1.5rem;
     border-radius: 10px;
     color: var(--primary-color);
+    margin-top: 20px;
 }
 
 
@@ -193,7 +195,7 @@ header .navbar ul li ul {
 
 
 header .navbar ul li ul li a{
-    padding: 35px; 
+    margin: 20px -20px;
     font-size: 30px;
     font-weight: 600;
     color: var(--primary-color);
