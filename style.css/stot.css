@@ -43,19 +43,30 @@ p {
 
 h2 {
     text-align: center;
-    color: var(--primary-color);
+    color: #000;
     font-size: 3rem;
+    margin-top: 200px;
 }
+
 
 .infographic {
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: -60px;
     
 }
 
 #circle1, #circle5 {
-    margin-top: -700px;
+    margin-top: -350px;
+}
+
+#circle1 {
+    margin-left: 150px;
+   
+}
+#circle5 {
+    margin-right: 150px;
 }
 
 #circle3 {
@@ -72,7 +83,10 @@ h2 {
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
+
+
 
 section.cirkler {
     display: flex;
