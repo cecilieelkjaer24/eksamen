@@ -43,6 +43,7 @@ header {
 .billede2 img{
     width: 70%;
     height: auto;
+    margin: 30px 0px;
     
 }
 
@@ -50,52 +51,37 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    min-height: 100px;
-    margin: 0 35px;
-    border-radius: 15px;
+    
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 15px;
     color: var(--primary-color);
-    margin-bottom: 15px;
+    margin-top: 30px;
+    
 }
-
-   .nyhedsbrev h2 {
-    color: var(--primary-color);
-    font-size: 3.5rem;
-    margin-bottom: 20px;
-   }
  
-   section.instagram {
-    display: flex;
    
-}
 
 form.nyhedsbrev input#email, input#fornavn {
-      display: block;
-        margin-bottom: 2px;
+        display: block;
         font-weight: bold;
         min-height: 46px;
-        width: 300px;
+        width: 452px;
         text-align: center;
         font-size: 1.1rem;
-        border-radius: 0px;
     
-    
+       
+       
 }
 
 form.nyhedsbrev input::placeholder, input ::placeholder {
     color: var(--primary-color);
-    
+   
 }
 
-section.nyhedsb {
-    margin: 21px 52px 87px 52px;
-} 
+
 
 .nyhedsbrev button {
     display: block;
-    margin-bottom: 35px;
     font-weight: 800;
     min-height: 70px;
     width: 300px;
@@ -109,21 +95,21 @@ section.nyhedsb {
 
 .betingelser p {
     font-size: 1rem;
-    margin: 22px 4px;
+   
 }
 
 input#betingelser {
     width: 20%;
 }
-.instagram {
-    text-align: center;
-    margin-bottom: 2rem;
-}
+
 
 .instagram img {
-    width: 122%;
-    height: auto;
+   width: 100%;
+   margin-top: 40px;
+ 
+   
 }
+
 
 h1 {
     text-align: center;
@@ -135,30 +121,26 @@ h1 {
 p {
     color: var(--primary-color);
     text-align: start;
-    margin: 50px 100px;
 }
 
 h2 {
-    text-align: center;
+    text-align: start;
     color: var(--primary-color);
     font-size: 3rem;
     
 }
 
-p#undertekst {
-    margin: 0 29px;
+form h2 {
+    margin-top: 30px;
 }
 
-p#instatekst {
-
-    text-align: start;
-    text-wrap: auto;
+#instaskrift {
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
-label {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
+
+main {
+    margin: 20px 120px;
 }
 
 /*Navbarrens redigering*/
@@ -170,6 +152,9 @@ header .navbar ul {
     
 }
 
+section.nyhedsb {
+    margin-top: 35px;
+}
 
 header .navbar ul li {
     position: relative;
