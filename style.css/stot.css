@@ -34,7 +34,7 @@ h1 {
     text-align: center;
     margin-top: 350px;
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 p {
@@ -94,6 +94,62 @@ section.cirkler {
     justify-content: space-between;
     align-items: center;
 }
+
+.popup {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #8099e4ed;
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 2px 5px var(--secondary-color);
+    z-index: 10;
+}
+
+input[type="checkbox"]#tryk1:checked ~ .popup,
+input[type="checkbox"]#tryk2:checked ~ .popup,
+input[type="checkbox"]#tryk3:checked ~ .popup,
+input[type="checkbox"]#tryk4:checked ~ .popup,
+input[type="checkbox"]#tryk5:checked ~ .popup {
+    display: block;
+}
+
+label.open {
+    cursor: pointer;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10%;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+}
+
+label.open:hover {
+    background: var(--secondary-color);
+}
+
+label.close {
+    display: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]#tryk1:checked ~ .popup label.close,
+input[type="checkbox"]#tryk2:checked ~ .popup label.close,
+input[type="checkbox"]#tryk3:checked ~ .popup label.close,
+input[type="checkbox"]#tryk4:checked ~ .popup label.close,
+input[type="checkbox"]#tryk5:checked ~ .popup label.close {
+    display: inline-block;
+}
+
 
 /*Navbarrens redigering*/
 header .navbar ul {
