@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 275vh;
-    font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -37,10 +37,15 @@ h1 {
     margin-top: 350px;
     color: var(--primary-color);
     font-size: 4rem;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 p {
-    margin: 50px 150px;
+    margin: 50px 100px;
+    font-size: 1.7rem;
+    color: #000;
+   
+
 }
 
 h2 {
