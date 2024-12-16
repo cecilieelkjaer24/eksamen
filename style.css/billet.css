@@ -38,6 +38,7 @@ h1 {
     text-align: center;
     color: var(--primary-color);
     font-size: 4rem;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 p {

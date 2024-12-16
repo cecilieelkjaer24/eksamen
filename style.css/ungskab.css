@@ -20,10 +20,13 @@ body {
 
 .logo {
     position: absolute;
-    width: 350px;
-    margin-left: 35rem;
-    
+    width: 300px;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
+
 #program {
     color: var(--secondary-color);
 }
