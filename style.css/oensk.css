@@ -542,7 +542,7 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 760vh;
+        height: 470vh;
     }
     
     main {
