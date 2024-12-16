@@ -79,7 +79,6 @@ header .navbar ul {
     
 }
 
-
 header .navbar ul li {
     position: relative;
 
@@ -145,7 +144,7 @@ header .navbar ul li:hover > ul {
     display: none;
 }
 
-header label {
+label[for="menu-bar"]  {
     font-size: 20px;
     color: #333;
     cursor: pointer;
@@ -153,7 +152,6 @@ header label {
 }
 
 .footer {
-    margin-top: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -177,19 +175,34 @@ header label {
 #insta {
     width: 100%;
     margin-left: -5px;
-    margin-top: 25px;
+   
 }
 
-@media (max-width: 990px) {
 
-    
-    body {
-        height: 200vh;
+@media (max-width: 907px) {
+    header .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+   
+    }
+
+ 
+    header .navbar ul li {
+        position: relative;
     }
 
     header .navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary-color);
+        font-weight: 1000;
         font-size: 1.7rem;
         white-space: nowrap;
+        
+      
     }
 
     .logo {
@@ -202,10 +215,305 @@ header label {
     }
 
     h1 {
-        text-align: center;
-        margin-top: 150px;
+        font-size: 4rem;
+    }
+    p {
         color: var(--primary-color);
-        font-size: 3rem;
+        text-align: start;
+        font-size: 1.7rem;
+        margin: 20px 0;
+        font-weight: 500;
+    }
+    .billede2 img {
+        width: 80%;
+        height: auto;
+      
+    }
+
+    .nyhedsbrev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.nyhedsb {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        font-weight: bold;
+        min-height: 55px;
+        width: 546px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    label {
+        margin: 10px;
+        display: flex;
+    }
+    input#betingelser {
+        width: 5%;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 809px) {
+   
+    main {
+        margin: 20px 100px;
     }
     
+    h1 {
+        font-size: 3.7rem;
+        margin-top: 170px;
+    }
+    header {
+        padding: 10px 20px 10px 0px;
+        display: flex;
+        justify-content: end;
+        height: 80vh;
+        } 
+
+       
+                
+        header .navbar {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0040ff;
+        width: 320px;
+        position: absolute;
+        top: 60px;
+        left: 10;
+        box-sizing: border-box;
+
+        }
+                
+        label[for="menu-bar"] {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;      
+                
+        }
+                
+        #menu-bar:checked ~ nav.navbar {
+        display: flex;
+       
+       
+        }
+                
+        .menubillede {
+        width: 50px;
+
+        }
+
+        header .navbar ul {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+       
+        header .navbar ul li  {
+            position: relative;
+            width: 100%;
+            
+        }
+
+        header .navbar ul li a {
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 25px;
+            text-align: center;
+            display: block;
+            box-sizing: border-box;
+            
+        }
+
+     
+
+        header .navbar ul li ul {
+            position: static;
+            display: none;
+            width: 100%;
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+        
+        }
+        
+
+        header .navbar ul li a:hover {
+            background:var(--secondary-color);
+            color: var(--primary-color);
+            text-align: start;
+            width: 100%;
+            
+        }
+
+        
+        header .navbar ul li ul li a{
+            text-align: left;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            margin: 0;
+        
+            
+          
+        }
+        
+       
+        
+    header .navbar ul li a:active + ul,
+    header .navbar ul li a:focus + ul {
+        display: block; /* Viser dropdown på klik i mobil */
+       
+    }
+
+    header .navbar ul li:hover > ul {
+        display: none; /* Hover er slået fra i mobilvisning */
+    }
+                
+
+    .nyhedsbrev {
+        margin: 10px;
+         }
+                    
+    form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        margin-bottom: 0px;
+        width: 400px;
+    }
+                
+                   
+
+    input#betingelser {
+        width: 12%;
+        margin-right: 20px;
+    }
+
+    .nyhedsbrev button {
+        margin-top: 0px;
+    }
+
+    }
+
+    @media (max-width: 610px) {
+   
+      
+        .footer {
+      
+            margin: 0;
+            padding: 10px;
+             }
+                         
+             #logo {
+             display: none;
+             }
+                         
+             #adresse {
+             width: 40%;
+             margin-top: -16px;
+             }
+                         
+                         
+             #insta {
+             width: 100%;
+             }
+       
+            }
+    
+ @media (max-width: 478px) {
+   
+    body {
+        background-image: url(../img/landingp.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+        width: 110%;
+        font-size: 1rem;
+        font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    main {
+        margin: 20px 60px;
+    }
+    h1 {
+        font-size: 2.7rem;
+        margin-top: 0px;
+    }
+
+    h2, .nyhedsbrev h2 {
+        font-size: 2rem;
+        margin-bottom: 0px;
+    }
+   
+    p {
+        font-size: 1.5rem;
+        font-weight: 450;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+   
+    .nyhedsbrev {
+    margin: 10px;
+    }
+                    
+        form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        margin-bottom: 0px;
+        font-weight: bold;
+        min-height: 70px;
+        width: 300px;
+        text-align: center;
+        font-size: 1.1rem;
+        border-radius: 10px;
+                        
+        }
+                
+                   
+
+        input#betingelser {
+        width: 10%;
+        }
+
+        .betingelser p {
+            font-size: 1rem;
+            margin: 10px 0px;
+        }
+
+        #instaskrift {
+            margin-top: 100px;
+            margin-bottom: 0;
+        }
+
+       
+
+        section.instagram {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+        .instagram img {
+            width: 80%;
+            height: auto;
+            margin-top: 40px;
+        }
+    
+        
     }
