@@ -127,8 +127,7 @@ p#billettekst {
     width: 100%;
 }
 form#billet-form {
-    display: flex
-;
+    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -142,7 +141,6 @@ header .navbar ul {
     justify-content: space-around;
     
 }
-
 
 header .navbar ul li {
     position: relative;
@@ -209,7 +207,7 @@ header .navbar ul li:hover > ul {
     display: none;
 }
 
-header label {
+label[for="menu-bar"]  {
     font-size: 20px;
     color: #333;
     cursor: pointer;
@@ -217,11 +215,11 @@ header label {
 }
 
 .footer {
-    margin-top: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
     border-top: 2px solid var(--primary-color);
 }
 
@@ -232,8 +230,9 @@ header label {
 }
 
 #adresse {
-    width: 30%;
+    width: 40%;
     margin-bottom: -5px;
+    margin-left: -50px;
 
 }
 
@@ -241,6 +240,268 @@ header label {
 #insta {
     width: 100%;
     margin-left: -5px;
-    margin-top: 25px;
+   
 }
 
+
+@media (max-width: 907px) {
+    header .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+   
+    }
+
+ 
+    header .navbar ul li {
+        position: relative;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        display: block;
+        color: var(--primary-color);
+        font-weight: 1000;
+        font-size: 1.7rem;
+        white-space: nowrap;
+        
+      
+    }
+
+    .logo {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 17%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 250px;
+        font-size: 3rem;
+        
+    }
+    p {
+        color: #000;
+        text-align: start;
+        font-size: 1.7rem;
+        margin: 40px 40px 80px 60px;
+        font-weight: 500;
+    }
+    
+    .event {
+        width: 80%;
+    }
+    
+    
+}
+
+@media (max-width: 809px) {
+
+    #program {
+        color: var(--primary-color);
+    }
+   
+    body {
+        height: 540vh;
+    }
+    
+    
+    h1 {
+        font-size: 3rem;
+        margin: 300px 40px 20px 40px;
+        text-align: center;
+        
+    }
+
+    
+    
+    header {
+        padding: 10px 20px 10px 10px;
+        display: flex;
+        justify-content: end;
+      
+        } 
+
+    
+                
+        header .navbar {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0040ff;
+        width: 320px;
+        position: absolute;
+        top: 60px;
+        left: 10;
+        box-sizing: border-box;
+
+        }
+                
+        label[for="menu-bar"] {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;      
+                
+        }
+                
+        #menu-bar:checked ~ nav.navbar {
+        display: flex;
+       
+       
+        }
+                
+        .menubillede {
+        width: 50px;
+
+        }
+
+        header .navbar ul {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+       
+        header .navbar ul li  {
+            position: relative;
+            width: 100%;
+            
+        }
+
+        header .navbar ul li a {
+            font-size: 2rem;
+            font-weight: 600;
+            padding: 25px;
+            text-align: center;
+            display: block;
+            box-sizing: border-box;
+            
+        }
+
+     
+
+        header .navbar ul li ul {
+            position: static;
+            display: none;
+            width: 100%;
+            background-color: var(--secondary-color);
+            margin: 0;
+            padding: 0;
+        
+        }
+        
+
+        header .navbar ul li a:hover {
+            background:var(--secondary-color);
+            color: var(--primary-color);
+            text-align: start;
+            width: 100%;
+            
+        }
+
+        
+        header .navbar ul li ul li a{
+            text-align: left;
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            margin: 0;
+        
+            
+          
+        }
+        
+        .event {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, auto);
+            margin-top: 30px;
+        }
+        
+    header .navbar ul li a:active + ul,
+    header .navbar ul li a:focus + ul {
+        display: block; /* Viser dropdown på klik i mobil */
+       
+    }
+
+    header .navbar ul li:hover > ul {
+        display: none; /* Hover er slået fra i mobilvisning */
+    }
+                
+
+    p {
+        text-align: start;
+        font-size: 1.5rem;
+        margin: 25px 70px;
+        font-weight: 500;
+        line-break: auto;
+    }
+
+    }
+
+    @media (max-width: 610px) {
+   
+        body {
+            height: 490vh;
+        }
+        .footer {
+      
+            
+            padding: 10px;
+             }
+                         
+             #logo {
+             display: none;
+             }
+                         
+             #adresse {
+             width: 40%;
+             margin-top: -16px;
+             margin-left: 10px;
+             }
+                         
+                         
+             #insta {
+             width: 100%;
+             }
+       
+            }
+    
+ @media (max-width: 478px) {
+   
+    body {
+        height: 400vh;
+    }
+    
+    main {
+        margin: 20px 0px;
+    }
+    h1 {
+        font-size: 2.7rem;
+        margin-top: 250px;
+    }
+
+   
+    p {
+        font-size: 1.3rem;
+        font-weight: 450;
+       
+    }
+   
+    .event {
+        width: 70%;
+    }
+                   
+
+    }
