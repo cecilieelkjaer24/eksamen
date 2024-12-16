@@ -508,19 +508,53 @@ label[for="menu-bar"]  {
              }
        
             }
+
+            .tidligere {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                margin-top: 250px;
+            }
+        
+            h2 {
+                font-size: 2.5rem;
+               
+            }
+        
+           
+            p {
+                font-size: 1.3rem;
+                font-weight: 450;
+               
+            }
+           
+            form.oensk h2 {
+                color: #000;
+                margin: 20px 0px;
+                font-size: 2rem;
+            }
+                  
     
  @media (max-width: 478px) {
    
     body {
-        height: 400vh;
+        height: 760vh;
     }
     
     main {
-        margin: 20px 0px;
+        margin: 20px 25px;
     }
     h1 {
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         margin-top: 250px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+       
     }
 
    
@@ -530,8 +564,10 @@ label[for="menu-bar"]  {
        
     }
    
-    .event {
-        width: 70%;
+    form.oensk h2 {
+        color: #000;
+        margin: 20px 20px;
+        font-size: 1.8rem;
     }
                    
 
