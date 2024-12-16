@@ -492,15 +492,18 @@ label[for="menu-bar"]  {
 
     .billet {
         font-size: 2.2rem;
+        margin: 10px 90px;
     }
 
     .konkurrence h5 {
         font-size: 1.5rem;
-        margin: 21px 125px;
+        margin: 21px 97px;
     }
+
     .spotify a {
         font-size: 2rem;
     }
+
     h6 {
         text-align: start;
         font-size: 1.7rem;
@@ -513,7 +516,35 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 490vh;
+            height: 310vh;
+        }
+
+        .billet {
+            font-size: 2rem;
+            margin: 31px 59px;
+        }
+
+        .konkurrence h5 {
+            font-size: 1.3rem;
+            margin: 21px 75px;
+        }
+
+        .spotify a {
+            font-size: 2rem;
+            margin: 20px 80px;
+        }
+
+        h5 {
+                font-size: 2rem;
+                margin: 20px 80px;
+        
+        }
+
+        h6 {
+            text-align: start;
+            font-size: 1.5rem;
+            margin: 28px 82px;
+            font-weight: 400;
         }
         .footer {
       
@@ -545,12 +576,10 @@ label[for="menu-bar"]  {
     }
     
     main {
-        margin: 20px 0px;
+        margin: 250px 20px;
     }
-    h1 {
-        font-size: 2.7rem;
-        margin-top: 250px;
-    }
+
+   
 
    
     p {
@@ -558,10 +587,35 @@ label[for="menu-bar"]  {
         font-weight: 450;
        
     }
-   
-    .event {
-        width: 70%;
+    .billet {
+        font-size: 1.8rem;
+        margin: 31px 59px;
     }
-                   
+
+    .konkurrence h5 {
+        font-size: 1.3rem;
+        margin: 9px 54px;
+    }
+
+    .spotify {
+        margin-top: 0px;
+    }
+
+    .spotify a {
+        font-size: 1.8rem;
+        margin: 20px 59px;
+    }
+
+    h6 {
+        text-align: start;
+        font-size: 1.5rem;
+        margin: 28px 53px;
+        font-weight: 400;
+    }
+
+    .ungskab-ns figcaption {
+        text-align: start;
+        margin: 5px 66px;
+    }
 
     }
