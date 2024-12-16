@@ -265,7 +265,6 @@ header label {
     header .navbar ul {
         list-style-type: none;
         display: flex;
-       
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
@@ -297,7 +296,46 @@ header label {
         transform: translate(-50%, -50%); 
     }
 
+    h1 {
+        font-size: 4rem;
     }
+    p {
+        color: var(--primary-color);
+        text-align: start;
+        font-size: 1.7rem;
+    }
+    .billede2 img {
+        width: 80%;
+        height: auto;
+      
+    }
+
+    .nyhedsbrev {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.nyhedsb {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        font-weight: bold;
+        min-height: 55px;
+        width: 546px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    label {
+        margin: 10px;
+        display: flex;
+    }
+}
 
 @media (max-width: 809px) {
    
@@ -434,6 +472,35 @@ header label {
 
     }
 
+    @media (max-width: 610px) {
+   
+      
+        main h1, h2, p{
+            margin: 40px;
+        }
+        .nyhedsbrev {
+            margin: 20px;
+             }
+                        
+        form.nyhedsbrev input#email, input#fornavn {
+        display: block;
+        margin-bottom: 35px;
+        width: 200px;
+            }
+                    
+                       
+    
+        input#betingelser {
+        width:10%;
+        }
+    
+        .nyhedsbrev button {
+        margin-bottom: 17px;
+        }
+    
+        }
+    
+       
    
     
  @media (max-width: 478px) {
@@ -508,33 +575,3 @@ header label {
                 
         
     }
-
-    @media (max-width: 610px) {
-   
-      
-        main h1, h2, p{
-            margin: 40px;
-        }
-        .nyhedsbrev {
-            margin: 20px;
-             }
-                        
-        form.nyhedsbrev input#email, input#fornavn {
-        display: block;
-        margin-bottom: 35px;
-        width: 200px;
-            }
-                    
-                       
-    
-        input#betingelser {
-        width:10%;
-        }
-    
-        .nyhedsbrev button {
-        margin-bottom: 17px;
-        }
-    
-        }
-    
-       
