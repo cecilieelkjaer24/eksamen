@@ -462,7 +462,7 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 490vh;
+            height: 190vh;
         }
 
             .koeb {
@@ -486,6 +486,14 @@ label[for="menu-bar"]  {
             select, button {
                 margin: 10px 0 0 50px;
             }
+
+            #poster {
+                width: 60%;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                margin-left: 72px;
+            }
+        
        
         .footer {
       
