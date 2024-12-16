@@ -339,7 +339,14 @@ header label {
 
 @media (max-width: 809px) {
    
+    main {
+        margin: 20px 100px;
+    }
     
+    h1 {
+        font-size: 3.7rem;
+        margin-top: 170px;
+    }
     header {
         padding: 10px 20px 10px 0px;
         display: flex;
