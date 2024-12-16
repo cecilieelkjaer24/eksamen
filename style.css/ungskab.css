@@ -115,7 +115,7 @@ p a {
 
 .billet {
     color: #000;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin: 50px 0 0 0;
     border: 2px solid var(--secondary-color-color);
