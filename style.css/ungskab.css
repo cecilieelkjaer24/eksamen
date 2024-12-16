@@ -84,7 +84,7 @@ p a {
 }
 .ungskab img {
     height: auto;
-    width: 50%;
+    width: 70%;
    
 }
 
@@ -158,8 +158,9 @@ p a {
     font-weight: 600;
     font-family: sans-serif;
     text-align: start;
-    margin: 0px 100px 30px 100px;
+    margin: 20px 40px;
     font-weight: 600;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 .ungskab-ns {
