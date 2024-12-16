@@ -327,7 +327,7 @@ label[for="menu-bar"]  {
         margin: 0 auto;
     }
     body {
-        height: 600vh;
+        height: 590vh;
     }
     
     form.oensk h2 {
@@ -344,13 +344,12 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 540vh;
+        height: 500vh;
     }
     
     
     h1 {
         font-size: 3rem;
-        margin: 300px 40px 20px 40px;
         text-align: center;
         
     }
@@ -459,12 +458,7 @@ label[for="menu-bar"]  {
           
         }
         
-        .event {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2, auto);
-            margin-top: 30px;
-        }
+       
         
     header .navbar ul li a:active + ul,
     header .navbar ul li a:focus + ul {
@@ -480,8 +474,8 @@ label[for="menu-bar"]  {
     p {
         text-align: start;
         font-size: 1.5rem;
-        margin: 25px 70px;
-        font-weight: 500;
+        margin: 25px 25px;
+        font-weight: 400;
         line-break: auto;
     }
 
