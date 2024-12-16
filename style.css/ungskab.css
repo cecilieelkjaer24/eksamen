@@ -14,7 +14,7 @@ body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 580vh;
+    height: 680vh;
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -28,6 +28,9 @@ body {
 }
 
 
+main {
+    margin-top: 300px;
+}
 #program {
     color: var(--secondary-color);
 }
@@ -50,29 +53,17 @@ h5 {
         font-weight: 600;
 }
 
-p {
-    text-decoration: none;
-    text-align: start;
-    margin-top: 350px;
-    margin-left: 250px;
-    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
-    
-}
+
 
 h6 {
     text-align: start;
     font-size: 1.7rem;
-    margin: 20px 225px;
+    margin: 60px 225px;
     font-weight: 500;
 }
 
-p a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 2rem;
-    font-weight: 600;
-    
-}
+
+
 
 .ungskab {
     display: flex;
@@ -331,17 +322,6 @@ label[for="menu-bar"]  {
         margin-top: 250px;
         font-size: 3rem;
         
-    }
-    p {
-        color: #000;
-        text-align: start;
-        font-size: 1.7rem;
-        margin: 40px 40px 80px 60px;
-        font-weight: 500;
-    }
-    
-    .event {
-        width: 80%;
     }
     
     
