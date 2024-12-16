@@ -24,13 +24,15 @@ body {
 
 
 
+
 .logo {
     position: absolute;
-    width: 350px;
-    margin-left: 35rem;
-    
+    width: 300px;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
-
 
 h1 {
     text-align: center;
@@ -245,6 +247,10 @@ label[for="menu-bar"]  {
 
 
 @media (max-width: 907px) {
+
+    body {
+        height: 500vh;
+    }
     header .navbar ul {
         list-style-type: none;
         display: flex;
@@ -281,22 +287,14 @@ label[for="menu-bar"]  {
 
     h1 {
         text-align: center;
-        margin-top: 250px;
+        margin-top: 20px;
         font-size: 3rem;
-        
     }
-    p {
-        color: #000;
-        text-align: start;
-        font-size: 1.7rem;
-        margin: 40px 40px 80px 60px;
-        font-weight: 500;
+ 
+    .koeb {
+        max-width: 658px;
+        margin-top: 200px;
     }
-    
-    .event {
-        width: 80%;
-    }
-    
     
 }
 
