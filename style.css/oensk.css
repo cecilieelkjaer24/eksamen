@@ -14,15 +14,22 @@ body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500vh;
+    height: 490vh;
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+main {
+    margin: 20px 100px;
 }
 
 .logo {
     position: absolute;
-    width: 350px;
-    margin-left: 35rem;
-    
+    width: 300px;
+    height: auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 #program {
@@ -32,22 +39,33 @@ body {
 
 
 
-
 h1 {
     text-align: center;
     margin-top: 350px;
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+    
 }
 
 p {
-    margin: 50px 150px;
+    text-align: start;
+    font-size: 1.5rem;
+    margin: 40px 30px;
+    font-weight: 400;
+    line-break: auto;
 }
 
 h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 3rem;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+}
+
+form.oensk h2 {
+    color: #000;
+    margin: 20px 0px;
 }
 
 .tidligere {
@@ -72,20 +90,17 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    margin:150px 206px 150px 206px;
     border-radius: 15px;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 15px;
-    color: var(--primary-color);
-    margin-bottom: 15px;
-   }
-
-   .oensk h2 {
-    color: var(--primary-color);
-    font-size: 3.1rem;
+    color: #000;
     margin-bottom: 20px;
    }
+
+   label {
+    margin: 20px 0px;
+}
  
 
 form.oensk input#email, input#kunstner {
