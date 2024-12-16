@@ -28,15 +28,34 @@ body {
     color: var(--secondary-color);
 }
 
+h2 {
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    margin-top: 30px;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+}
 
+h5 {
+        text-align: center;
+        color: #000;
+        font-size: 3rem;
+        margin-top: 30px;
+        font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+}
 
 p {
     text-decoration: none;
     text-align: start;
     margin-top: 350px;
     margin-left: 360px;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+}
 
- 
+h6 {
+    text-align: start;
+    font-size: 1.7rem;
+    margin: 20px 500px;
 }
 
 p a {
@@ -79,7 +98,7 @@ p a {
 
 .spotify a{
     text-decoration: none;
-    color: var(--secondary-color);
+    color: #000;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 50px;
@@ -87,7 +106,7 @@ p a {
 }
 
 .billet {
-    color: var(--secondary-color);
+    color: #000;
     font-size: 4rem;
     font-weight: 600;
     margin: 50px 0 0 0;
@@ -100,7 +119,7 @@ p a {
 
 .billet a {
 
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 
@@ -126,7 +145,7 @@ p a {
 }
 
 .konkurrence h5 {
-    color: var(--secondary-color);
+    color: #000;
     font-size: 2rem;
     font-weight: 600;
     font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
