@@ -62,7 +62,7 @@ p {
 h6 {
     text-align: start;
     font-size: 1.7rem;
-    margin: 20px 60px;
+    margin: 20px 225px;
     font-weight: 500;
 }
 
@@ -168,7 +168,7 @@ p a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+   
 }
 
 .ungskab-ns img {
