@@ -27,7 +27,7 @@ main {
     position: absolute;
     width: 300px;
     height: auto;
-    top: 20%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
@@ -299,7 +299,7 @@ label[for="menu-bar"]  {
         position: absolute;
         width: 200px;
         height: auto;
-        top: 17%;
+        top: 11%;
         left: 50%;
         transform: translate(-50%, -50%); 
     }
@@ -536,6 +536,7 @@ label[for="menu-bar"]  {
                 margin: 20px 0px;
                 font-size: 2rem;
             }
+    }
                   
     
  @media (max-width: 478px) {
@@ -569,6 +570,15 @@ label[for="menu-bar"]  {
         margin: 20px 20px;
         font-size: 1.8rem;
     }
-                   
-
+              
+    form.oensk input#email, input#kunstner {
+        
+    margin-bottom: 0px;
+       
     }
+
+    .oensk button {
+        margin-bottom: 0px; 
+    }
+
+}
