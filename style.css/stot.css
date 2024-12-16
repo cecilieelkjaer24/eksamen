@@ -35,10 +35,12 @@ h1 {
     margin-top: 350px;
     color: var(--primary-color);
     font-size: 4rem;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 p {
     margin: 50px 150px;
+    font-size: 1.7rem;
 }
 
 h2 {
@@ -46,6 +48,7 @@ h2 {
     color: #000;
     font-size: 3rem;
     margin-top: 200px;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 
@@ -83,6 +86,7 @@ h2 {
     justify-content: center;
     align-items: center;
     position: relative;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
     
 }
 
@@ -124,7 +128,7 @@ label.open {
     color: white;
     border-radius: 10%;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 

@@ -35,6 +35,7 @@ p {
     text-align: start;
     margin-top: 350px;
     margin-left: 360px;
+
  
 }
 
@@ -43,6 +44,7 @@ p a {
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 600;
+    
 }
 
 .ungskab {
@@ -81,25 +83,26 @@ p a {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 50px;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 .billet {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 2rem;
+    color: var(--secondary-color);
+    font-size: 4rem;
     font-weight: 600;
-    text-align: center;
-    background-color: #0040ff;
-    border: 2px solid var(--primary-color);
-    width: 50%;
+    margin: 100px 0;
+    border: 2px solid var(--secondary-color-color);
     height: auto;
-    margin-left: 360px;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+    text-align: center;
     
 }
 
-.billet h4{
-    text-decoration: underline;
+.billet a {
+
+    color: var(--secondary-color);
 }
+
 
 h5 {
     text-align: center;
@@ -107,6 +110,7 @@ h5 {
     color: var(--secondary-color);
     font-size: 2rem;
     font-weight: 600;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
    
 }
 
