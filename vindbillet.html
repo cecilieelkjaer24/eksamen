@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vind billetter</title>
+    <title>Køb billet til ung-skab</title>
     <link rel="icon" type="image/x-icon" href="img/faveicon.png">
-    <link rel="stylesheet" href="style.css/program.css">
+    <link rel="stylesheet" href="style.css/vind.css">
 </head>
 <body>
     
@@ -14,15 +14,16 @@
        
 
         <input type="checkbox" id="menu-bar"><!-- Dette er burgermenuen når skærmen bliver mindre -->
-        <label for="menu-bar"><img class="menubillede" src="img/logo.lyserood.png" alt="menu" ></label>
+        <label for="menu-bar"><img class="menubillede" src="img/burger.png" alt="menu" ></label>
            
         <input type="checkbox" id="menu-bar">
-        <label for="menu-bar">Menu</label>
+        <label for="menu-bar"></label>
     
         <nav class="navbar">
             <ul>
-                <li><a href="index.html" id="program">Program</a>
+                    <li><a href="#">Program</a> 
                     <ul>
+                        
                         <li><a href="program.html">Kommende events</a></li>
                         <li><a href="billet.html">Køb billet</a></li>
                         <li><a href="kalender.html">Kalender</a></li>
@@ -30,23 +31,23 @@
                     </ul>
                 </li>
     
-                <li><a href="info.html" id="info-nav">Information</a>
+                <li><a href="info.html">Information</a>
                 </li>
     
-                <li><a href="stot.html">Støt Radar</a>
-                    <ul>
+                <li><a href="#" id="stott">Støt Radar</a>
+                    <ul class="uli">
                         <li><a href="stot.html">Støt</a></li>
                         <li><a href="del.html">Del dine minder</a></li>
-                        <li><a href="vindbillet.html">Konkurrencer +</a>
+                        <li><a href="vindbillet.html">Konkurrencer</a>
                             <ul>
                                 <li><a href="vindbillet.html">Vind billetter</a></li>
-                                <li><a href="#">Vind en gratis drink</a></li>
+                                
                             </ul>
                         </li>
                     </ul>
                 </li>
     
-                <li><a href="index.html">Om Radar</a>
+                <li><a href="#"class="uli">Om Radar</a>
                     <ul>
                         <li><a href="#">Vores værdier</a></li>
                         <li><a href="#">Kontakt</a></li>
@@ -58,16 +59,37 @@
         </nav>
 </header>
    <main>
-    <h1>Kommende events</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste inventore optio ullam quod voluptates officiis voluptatem, deserunt hic assumenda? Aliquam dolorum libero assumenda, tenetur quisquam eveniet ipsam expedita omnis accusantium?</p>
+  
+    <h1>Vind billetter til UNG-SKAB</h1>
    
-
-    <section class="event">
-        <img src="program/baryl.webp" alt="baryl">
-        <img src="program/gorgeos.webp" alt="gorgeos">
-        <a href="ungskab.html"><img src="program/ung-event.webp" alt="ung-skab"></a>
-        <img src="program/iamjj.webp" alt="iamjj">
+    <section class="ungskab">
+       
+        <a href="https://www.instagram.com/radarlive?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="program/konkurrence.png" alt="ung-skab"></a>
     </section>
+
+
+    <section class="billet">
+        <h3>Eller køb dine billetter</h3>
+        <a href="billet.html">HER</a>
+    </section>
+
+  
+     <article class="konkurrence">
+        <a href="https://www.instagram.com/radarlive?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="program/instagram.png" alt="konkurrence"></a>
+    </article>
+   
+    <section class="spotify">
+        <a href="https://open.spotify.com/artist/7JfoyGGsFgGPfhgfPvpqk8?si=1xfXFRcTQfGDqcDqwXb0YQ" target="_blank" rel="noopener noreferrer">Lyt til UNG-SKAB på Spotify</a>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/7JfoyGGsFgGPfhgfPvpqk8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+
+    
+            <figure class="ungskab-ns">
+                <img src="img/ungskab-billede.webp" alt="ungskab">
+                <figcaption>Foto: Rolf Meldgaard. UNG-SKAB åbner North Side 2024. </figcaption>
+            </figure>
+
+   
    
 </main>
         
