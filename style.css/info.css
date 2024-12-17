@@ -396,8 +396,8 @@ label[for="menu-bar"]  {
         font-weight: 500;
     }
     
-    .event {
-        width: 80%;
+    body {
+        height: 578vh;
     }
     
     
@@ -410,7 +410,7 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 555vh;
+        height: 561vh;
     }
     
     h1 {
@@ -583,7 +583,7 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 710vh;
+            height: 675vh;
         }
 
         main {
@@ -591,7 +591,7 @@ label[for="menu-bar"]  {
         }
 
         p {
-            text-align: center;
+            text-align: start;
             font-size: 1.5rem;
             margin: 25px 0px;
             font-weight: 500;
@@ -634,6 +634,11 @@ label[for="menu-bar"]  {
              #insta {
              width: 100%;
              }
+
+             iframe {
+                display: none;
+            }
+                  
        
             }
 
@@ -641,11 +646,11 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 245vh;
+        height: 725vh;
     }
     
     main {
-        margin: 20px 0px;
+        margin: 20px 40px;
     }
     h1 {
         font-size: 2.7rem;
@@ -659,8 +664,8 @@ label[for="menu-bar"]  {
        
     }
    
-    .event {
-        width: 70%;
+    iframe {
+        display: none;
     }
                    
 
@@ -670,9 +675,16 @@ label[for="menu-bar"]  {
     @media (max-width: 1002px) and (min-width: 810px) {
 
     body {
-        height: 170vh;
+        height: 590vh;
     }
        
+    h3 {
+        text-align: center;
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+    }
         header .navbar ul {
             list-style-type: none;
             display: flex;
@@ -724,7 +736,7 @@ label[for="menu-bar"]  {
         }
     
         body {
-            height: 295vh;
+            height: 960vh;
         }
        
     }
