@@ -718,13 +718,13 @@ label[for="menu-bar"]  {
 
     @media (min-width: 1003px) {
       
+     
         p {
-            
-            text-align: start;
-            font-size: 1.7rem;
-            margin: 40px 90px;
+            font-size: 2rem;
+            font-weight: 450;
+            font-family: 'Roboto', "Open sans", sans-serif;
         }
-      
+    
     
         .logo {
             position: absolute;

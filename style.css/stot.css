@@ -110,11 +110,12 @@ section.cirkler {
     top: -20px;
     left: 80%;
     width: 300%;
-    font-family: roboto;
+    font-family: 'Roboto', "Open sans", sans-serif;
     transform: translate(-50%);
     background: #8099e4ed;
     border: 1px solid var(--secondary-color);
-    padding: 10px;
+    padding: 1px;
+    font-weight: 450;
     border-radius: 0px;
     box-shadow: 0 2px 5px var(--secondary-color);
     z-index: 10;
@@ -136,6 +137,7 @@ label.open {
     border-radius: 10%;
     display: inline-block;
     font-size: 1.5rem;
+    font-family: 'Roboto', "Open sans", sans-serif;
     text-align: center;
 }
 
@@ -721,10 +723,8 @@ img {
     @media (min-width: 1003px) {
       
         p {
-            
-            text-align: start;
-            font-size: 1.7rem;
-            margin: 40px 60px;
+            font-size: 2rem;
+            font-weight: 450;
         }
       
     
