@@ -31,6 +31,12 @@ body {
     color: var(--secondary-color);
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-weight: 500;
+}
 
 h1 {
     text-align: center;
@@ -70,6 +76,7 @@ h2 {
     height: auto;
     display: block;
     border: 2px solid var(--primary-color);
+    
 }
 
 /*Navbarrens redigering*/
@@ -501,7 +508,7 @@ label[for="menu-bar"]  {
         }
     
         body {
-            height: 295vh;
+            height: 300vh;
         }
        
     }
