@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 850vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Open sans", sans-serif;
 }
 
 .logo {

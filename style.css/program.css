@@ -217,6 +217,8 @@ label[for="menu-bar"]  {
       
     }
 
+
+
     .logo {
         position: absolute;
         width: 200px;
@@ -369,12 +371,7 @@ label[for="menu-bar"]  {
           
         }
         
-        .event {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2, auto);
-            margin-top: 30px;
-        }
+    
         
     header .navbar ul li a:active + ul,
     header .navbar ul li a:focus + ul {
@@ -391,6 +388,13 @@ label[for="menu-bar"]  {
         text-align: start;
         font-size: 1.7rem;
         margin: 20px 90px;
+    }
+
+    .event {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 30px;
     }
 }
 
