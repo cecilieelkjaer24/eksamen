@@ -382,13 +382,13 @@ label[for="menu-bar"]  {
 
     p {
         text-align: start;
-        font-size: 1.5rem;
-        margin: 25px 70px;
-        font-weight: 500;
-        line-break: auto;
+        font-size: 1.7rem;
+        margin: 20px 90px;
     }
+}
 
-    }
+
+    
 
     @media (max-width: 610px) {
    
@@ -465,12 +465,10 @@ label[for="menu-bar"]  {
         
 
         p {
-            
             text-align: start;
             font-size: 1.7rem;
-            margin: 20px 60px;
+            margin: 20px 160px;
         }
-
         header .navbar ul li a {
             text-decoration: none;
             padding: 40px 0px;
@@ -487,10 +485,9 @@ label[for="menu-bar"]  {
     @media (min-width: 1003px) {
       
         p {
-            
             text-align: start;
             font-size: 1.7rem;
-            margin: 40px 60px;
+            margin: 40px 178px;
         }
       
     
