@@ -355,9 +355,7 @@ label[for="menu-bar"]  {
 
     
 
-    body {
-        height: 365vh;
-    }
+    
 }
 
 @media (max-width: 809px) {
@@ -367,13 +365,17 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 330vh;
+        height: 271vh;
+    }
+
+    #stott {
+        color: var(--primary-color);
     }
     
-
-
-    
-    
+    h4 {
+        font-size: 1.8rem;
+     
+    }
     header {
         padding: 10px 20px 10px 10px;
         display: flex;
@@ -522,19 +524,32 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 310vh;
+            height: 252vh;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 250px;
+            font-size: 2.5rem;
         }
 
         .billet {
-            font-size: 2rem;
-            margin: 31px 59px;
+            font-size: 1.8rem;
+            margin: 18px 59px;
+        }
+        .konkurrence img {
+            width: 72%;
+            height: auto;
+            /* margin: 20px; */
         }
 
-        .konkurrence h5 {
-            font-size: 1.3rem;
-            margin: 21px 75px;
-        }
+      main {
+        margin: 20px;
+      }
 
+      .spotify {
+        margin-top: 0;
+    }
         .spotify a {
             font-size: 2rem;
             margin: 20px 80px;
@@ -545,13 +560,11 @@ label[for="menu-bar"]  {
                 margin: 20px 80px;
         
         }
-
-        h6 {
-            text-align: start;
-            font-size: 1.5rem;
-            margin: 28px 82px;
-            font-weight: 400;
+        h4 {
+            font-size: 1.7rem;
         }
+    
+      
         .footer {
       
             
@@ -578,14 +591,18 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 500vh;
+        height: 214vh;
     }
     
     main {
-        margin: 250px 20px;
+        margin: 70px 20px;
     }
 
-   
+       h1 {
+        text-align: center;
+        margin-top: 250px;
+        font-size: 2.3rem;
+    }
 
    
     p {
@@ -594,21 +611,21 @@ label[for="menu-bar"]  {
        
     }
     .billet {
-        font-size: 1.8rem;
-        margin: 31px 59px;
+        font-size: 1.5rem;
+        margin: 21px 22px;
     }
-
    
 
     .spotify {
         margin-top: 0px;
     }
-
     .spotify a {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin: 20px 59px;
     }
-
+    h4 {
+        font-size: 1.3rem;
+    }
    
 
     }
