@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 310vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Open sans", sans-serif;
 }
 
 .logo {
@@ -60,14 +60,6 @@ p {
         font-weight: 400;
         text-decoration: underline;
     
-}
-
-
-
-h2 {
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 3rem;
 }
 
 .event {
@@ -517,7 +509,7 @@ label[for="menu-bar"]  {
         }
     
         body {
-            height: 300vh;
+            height: 330vh;
         }
        
     }
