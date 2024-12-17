@@ -54,6 +54,14 @@ p {
     line-break: auto;
 }
 
+#her {
+        text-align: start;
+        font-size: 1.7rem;
+        font-weight: 400;
+        text-decoration: underline;
+    
+}
+
 
 
 h2 {
