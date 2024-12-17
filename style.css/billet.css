@@ -281,9 +281,9 @@ label[for="menu-bar"]  {
         position: absolute;
         width: 200px;
         height: auto;
-        top: 17%;
+        top: 11%;
         left: 50%;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
     }
 
     h1 {
@@ -306,7 +306,7 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 220vh;
+        height: 128vh;
     }
     
     
@@ -520,8 +520,9 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 185vh;
+        height: 116vh;
     }
+
     
     main {
         margin: 20px 0px;
@@ -531,6 +532,78 @@ label[for="menu-bar"]  {
     h1 {
         font-size: 2.7rem;
         margin-top: 20px;
-    }      
+    }   
+    
+    .logo {
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     }
+
+    @media (max-width: 1002px) and (min-width: 810px) {
+
+       
+        header .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+           
+        }
+
+       
+
+        p {
+            text-align: start;
+            font-size: 1.7rem;
+            margin: 20px 0px;
+        }
+
+        header .navbar ul li a {
+            text-decoration: none;
+            padding: 40px 0px;
+            display: block;
+            color: var(--primary-color);
+            font-size: 30px;
+            font-weight: 1000;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
+
+        body {
+            height: 170vh;
+        }
+
+    }
+
+    @media (min-width: 1003px) {
+    
+
+
+
+    p {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+
+    .logo {
+        position: absolute;
+        width: 300px;
+        height: auto;
+        top: 19%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    body {
+        height: 255vh;
+    }
+
+}
