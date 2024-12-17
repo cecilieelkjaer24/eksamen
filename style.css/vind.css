@@ -18,6 +18,7 @@ body {
     font-family: "Roboto+mono", Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .logo {
     position: absolute;
     width: 300px;
@@ -27,6 +28,19 @@ body {
     transform: translate(-50%, -50%); 
 }
 
+
+section.story {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+section.story img {
+    width: 30%;
+    height: auto;
+    margin: 40px 0px;
+}
 
 main {
     margin-top: 233px;
@@ -54,13 +68,18 @@ h2 {
     font-weight: 600;
 }
 
-h5 {
-        text-align: center;
+h4 {
+        text-align: start;
         color: #000;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 30px;
         font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
         font-weight: 600;
+        margin: 40px 60px 0px 60px;
+}
+
+h4 a {
+    color: #000;
 }
 
 
@@ -568,7 +587,7 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 400vh;
+        height: 500vh;
     }
     
     main {
@@ -588,10 +607,7 @@ label[for="menu-bar"]  {
         margin: 31px 59px;
     }
 
-    .konkurrence h5 {
-        font-size: 1.3rem;
-        margin: 9px 54px;
-    }
+   
 
     .spotify {
         margin-top: 0px;
@@ -602,16 +618,66 @@ label[for="menu-bar"]  {
         margin: 20px 59px;
     }
 
-    h6 {
-        text-align: start;
-        font-size: 1.5rem;
-        margin: 28px 53px;
-        font-weight: 400;
-    }
-
-    .ungskab-ns figcaption {
-        text-align: start;
-        margin: 5px 66px;
-    }
+   
 
     }
+
+
+    @media (max-width: 1002px) and (min-width: 810px) {
+
+        body {
+            height: 170vh;
+        }
+           
+            header .navbar ul {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                justify-content: space-around;
+               
+            }
+    
+            
+    
+            p {
+                text-align: start;
+                font-size: 1.7rem;
+                margin: 20px 160px;
+            }
+            header .navbar ul li a {
+                text-decoration: none;
+                padding: 40px 0px;
+                display: block;
+                color: var(--primary-color);
+                font-size: 30px;
+                font-weight: 1000;
+                font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+            }
+    
+        }
+    
+    
+        @media (min-width: 1003px) {
+          
+            p {
+                text-align: start;
+                font-size: 1.7rem;
+                margin: 40px 178px;
+            }
+          
+        
+            .logo {
+                position: absolute;
+                width: 300px;
+                height: auto;
+                top: 19%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        
+            body {
+                height: 580vh;
+            }
+           
+        }
