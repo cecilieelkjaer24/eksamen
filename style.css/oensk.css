@@ -345,10 +345,8 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 500vh;
+        height: 310vh;
     }
-    
-    
     h1 {
         font-size: 3rem;
         text-align: center;
@@ -581,5 +579,68 @@ label[for="menu-bar"]  {
     .oensk button {
         margin-bottom: 0px; 
     }
+
+}
+
+@media (max-width: 1002px) and (min-width: 810px) {
+
+       
+    header .navbar ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+       
+    }
+
+   
+
+    p {
+        text-align: start;
+        font-size: 1.7rem;
+        margin: 20px 0px;
+    }
+
+    header .navbar ul li a {
+        text-decoration: none;
+        padding: 40px 0px;
+        display: block;
+        color: var(--primary-color);
+        font-size: 30px;
+        font-weight: 1000;
+        font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+    }
+
+    body {
+        height: 330vh;
+    }
+
+}
+
+@media (min-width: 1003px) {
+
+
+
+
+p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    height: 345vh;
+}
 
 }
