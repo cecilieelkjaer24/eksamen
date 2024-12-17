@@ -648,10 +648,7 @@ label[for="menu-bar"]  {
     }
 
     @media (min-width: 1003px) {
-    header {
-        position: relative;
-        height: 100vh;
-    }
+    
 
     .nyhedsbrev {
         display: flex;

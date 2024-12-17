@@ -193,6 +193,7 @@ label[for="menu-bar"]  {
    
     }
 
+
  
     header .navbar ul li {
         position: relative;
@@ -213,7 +214,7 @@ label[for="menu-bar"]  {
         position: absolute;
         width: 200px;
         height: auto;
-        top: 17%;
+        top: 12%;
         left: 50%;
         transform: translate(-50%, -50%); 
     }
@@ -392,7 +393,7 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 490vh;
+            height: 300vh;
         }
         .footer {
       
@@ -420,7 +421,7 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 400vh;
+        height: 245vh;
     }
     
     main {
@@ -443,4 +444,67 @@ label[for="menu-bar"]  {
     }
                    
 
+    }
+
+
+    @media (max-width: 1002px) and (min-width: 810px) {
+
+    body {
+        height: 170vh;
+    }
+       
+        header .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: space-around;
+           
+        }
+
+        
+
+        p {
+            
+            text-align: start;
+            font-size: 1.7rem;
+            margin: 20px 60px;
+        }
+
+        header .navbar ul li a {
+            text-decoration: none;
+            padding: 40px 0px;
+            display: block;
+            color: var(--primary-color);
+            font-size: 30px;
+            font-weight: 1000;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
+
+    }
+
+
+    @media (min-width: 1003px) {
+      
+        p {
+            
+            text-align: start;
+            font-size: 1.7rem;
+            margin: 40px 60px;
+        }
+      
+    
+        .logo {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            top: 19%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    
+        body {
+            height: 295vh;
+        }
+       
     }
