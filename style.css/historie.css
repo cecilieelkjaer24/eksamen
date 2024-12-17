@@ -247,7 +247,7 @@ label[for="menu-bar"]  {
     }
    
     body {
-        height: 345vh;
+        height: 294vh;
     }
     
     
@@ -500,9 +500,9 @@ label[for="menu-bar"]  {
 
     @media (max-width: 1002px) and (min-width: 810px) {
 
-    body {
-        height: 170vh;
-    }
+        body {
+            height: 329vh;
+        }
        
         header .navbar ul {
             list-style-type: none;
@@ -567,7 +567,7 @@ label[for="menu-bar"]  {
         }
     
         body {
-            height: 300vh;
+            height: 470vh;
         }
        
     }
