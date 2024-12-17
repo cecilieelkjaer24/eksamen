@@ -66,6 +66,10 @@ p {
 
 }
 
+a {
+    color: #000;
+}
+
 /*Navbarrens redigering*/
 header .navbar ul {
     list-style-type: none;
@@ -79,6 +83,7 @@ header .navbar ul li {
     position: relative;
 
 }
+
 
 
 
