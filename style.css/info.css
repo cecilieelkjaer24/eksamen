@@ -576,12 +576,43 @@ label[for="menu-bar"]  {
         line-break: auto;
     }
 
+    
+
     }
 
     @media (max-width: 610px) {
    
         body {
-            height: 300vh;
+            height: 710vh;
+        }
+
+        main {
+            margin: 20px 55px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 25px 0px;
+            font-weight: 500;
+            line-break: auto;
+        }
+
+        .ikoner {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, auto);
+           
+        }
+
+        #ikon4 {
+            width: 50%;
+            margin-left: 40px;
+        }
+
+        #barkort {
+            width: 96%;
+            margin: 30px 0;
         }
         .footer {
       
@@ -605,6 +636,7 @@ label[for="menu-bar"]  {
              }
        
             }
+
     
  @media (max-width: 478px) {
    
