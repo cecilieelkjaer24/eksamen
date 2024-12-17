@@ -60,16 +60,16 @@ h2 {
 
 
 .vaerdier p{
-    margin-top: 0px;
-    
+    margin-top: 0px;   
 }
 
 #stor {
-    margin-top: -150px;
+    margin-top: -160px;
     font-size: 6rem;
     margin-left: 350px;
     color: var(--secondary-color);
     font-weight: 800;
+    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
 /*Navbarrens redigering*/
@@ -362,13 +362,21 @@ label[for="menu-bar"]  {
           
         }
         
-        .event {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(2, auto);
-            margin-top: 30px;
+        h2 {
+            text-align: start;
+            color: var(--primary-color);
+            font-size: 11rem;
+            margin-left: 86px;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
         }
-        
+        #stor {
+            margin-top: -94px;
+            font-size: 3rem;
+            margin-left: 226px;
+            color: var(--secondary-color);
+            font-weight: 800;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
     header .navbar ul li a:active + ul,
     header .navbar ul li a:focus + ul {
         display: block; /* Viser dropdown på klik i mobil */
@@ -393,10 +401,42 @@ label[for="menu-bar"]  {
     @media (max-width: 610px) {
    
         body {
-            height: 300vh;
+            height: 305vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 300px 40px 20px 40px;
+            text-align: center;
+        }
+        p {
+            text-align: start;
+            font-size: 1.7rem;
+            margin: 11px 72px;
+        }
+        h2 {
+            text-align: start;
+            color: var(--primary-color);
+            font-size: 8rem;
+            margin-left: 68px;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
+        #stor {
+            margin-top: -72px;
+            font-size: 2.5rem;
+            margin-left: 169px;
+            color: var(--secondary-color);
+            font-weight: 800;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
+
+        h3 {
+            color: #000;
+            font-size: 3rem;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+            text-align: center;
         }
         .footer {
-      
             
             padding: 10px;
              }
@@ -421,11 +461,11 @@ label[for="menu-bar"]  {
  @media (max-width: 478px) {
    
     body {
-        height: 245vh;
+        height: 259vh;
     }
     
     main {
-        margin: 20px 0px;
+        margin: 20px 10px;
     }
     h1 {
         font-size: 2.7rem;
@@ -439,10 +479,21 @@ label[for="menu-bar"]  {
        
     }
    
-    .event {
-        width: 70%;
+    h2 {
+        text-align: start;
+        color: var(--primary-color);
+        font-size: 5rem;
+        margin-left: 64px;
+        font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
     }
-                   
+    #stor {
+        margin-top: -46px;
+        font-size: 1.5rem;
+        margin-left: 132px;
+        color: var(--secondary-color);
+        font-weight: 800;
+        font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+    }           
 
     }
 
@@ -479,6 +530,21 @@ label[for="menu-bar"]  {
             font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
         }
 
+        #stor {
+            margin-top: -122px;
+            font-size: 4rem;
+            margin-left: 310px;
+            color: var(--secondary-color);
+            font-weight: 800;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
+        h2 {
+            text-align: start;
+            color: var(--primary-color);
+            font-size: 13rem;
+            margin-left: 152px;
+            font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
+        }
     }
 
 
