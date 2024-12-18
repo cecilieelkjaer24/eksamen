@@ -240,25 +240,13 @@ label[for="menu-bar"]  {
     main {
         margin: 192px 64px;
     }
-    
-    .event {
-        width: 80%;
-    }
-    
-    body {
-        height: 340vh;
-    }
-    
+   
 }
 
 @media (max-width: 809px) {
 
     #program {
         color: var(--primary-color);
-    }
-   
-    body {
-        height: 170vh;
     }
     
     
@@ -403,9 +391,6 @@ label[for="menu-bar"]  {
 
     @media (max-width: 610px) {
    
-        body {
-            height: 165vh;
-        }
 
         p {
             text-align: start;
@@ -415,35 +400,27 @@ label[for="menu-bar"]  {
             line-break: auto;
         }
         .footer {
-      
-            
-            padding: 10px;
+             padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+        #adresse {
              width: 40%;
              margin-top: -16px;
              margin-left: 10px;
              }
-                         
-                         
-             #insta {
+                                   
+        #insta {
              width: 100%;
              }
-          
-       
+        
             }
     
  @media (max-width: 478px) {
    
-    body {
-        height: 153vh;
-    }
-    
     main {
         margin: 20px 0px;
     }
@@ -464,7 +441,6 @@ label[for="menu-bar"]  {
 
     @media (max-width: 1002px) and (min-width: 810px) {
 
-       
         header .navbar ul {
             list-style-type: none;
             display: flex;
@@ -473,8 +449,6 @@ label[for="menu-bar"]  {
             justify-content: space-around;
            
         }
-
-       
 
         p {
             text-align: start;
@@ -492,16 +466,11 @@ label[for="menu-bar"]  {
             font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
         }
 
-        body {
-            height: 170vh;
-        }
 
     }
 
     @media (min-width: 1003px) {
     
-
-
         p {
             font-size: 2rem;
             font-weight: 450;
@@ -514,10 +483,6 @@ label[for="menu-bar"]  {
         top: 19%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    body {
-        height: 500vh;
     }
 
 }

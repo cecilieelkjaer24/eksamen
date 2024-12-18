@@ -330,10 +330,7 @@ label[for="menu-bar"]  {
         width: 95%;
         margin: 0 auto;
     }
-    body {
-        height: 590vh;
-    }
-    
+  
     form.oensk h2 {
         color: #000;
         margin: 20px 0px;
@@ -346,10 +343,7 @@ label[for="menu-bar"]  {
     #program {
         color: var(--primary-color);
     }
-   
-    body {
-        height: 310vh;
-    }
+
     h1 {
         font-size: 3rem;
         text-align: center;
@@ -485,67 +479,60 @@ label[for="menu-bar"]  {
 
     @media (max-width: 610px) {
    
-        body {
-            height: 490vh;
-        }
+    
         .footer {
-      
-            
             padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+        #adresse {
              width: 40%;
              margin-top: -16px;
              margin-left: 10px;
              }
                          
                          
-             #insta {
+        #insta {
              width: 100%;
              }
        
             
 
-            .tidligere {
-                display: grid;
-                grid-template-columns: repeat(1, 1fr);
+        .tidligere {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
             }
 
-            h1 {
-                font-size: 2.5rem;
-                margin-top: 250px;
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 250px;
             }
         
-            h2 {
-                font-size: 2.5rem;
+        h2 {
+            font-size: 2.5rem;
                
             }
         
            
-            p {
-                font-size: 1.3rem;
-                font-weight: 450;
+        p {
+            font-size: 1.3rem;
+            font-weight: 450;
                
             }
            
-            form.oensk h2 {
-                color: #000;
-                margin: 20px 0px;
-                font-size: 2rem;
+        form.oensk h2 {
+            color: #000;
+            margin: 20px 0px;
+            font-size: 2rem;
             }
     }
                   
     
  @media (max-width: 478px) {
    
-    body {
-        height: 470vh;
-    }
     
     main {
         margin: 20px 25px;
@@ -615,16 +602,9 @@ label[for="menu-bar"]  {
         font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
     }
 
-    body {
-        height: 330vh;
-    }
-
 }
 
 @media (min-width: 1003px) {
-
-
-
 
     p {
         font-size: 2rem;
@@ -640,10 +620,6 @@ label[for="menu-bar"]  {
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-body {
-    height: 345vh;
 }
 
 }
