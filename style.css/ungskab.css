@@ -56,16 +56,12 @@ h5 {
         font-weight: 600;
 }
 
-
-
 h6 {
     text-align: start;
     font-size: 1.7rem;
     margin: 60px 225px;
     font-weight: 500;
 }
-
-
 
 
 .ungskab {
@@ -123,8 +119,6 @@ h6 {
     text-decoration: none;
     color: var(--primary-color);
 }
-
-
 
 
 .konkurrence {
@@ -352,9 +346,6 @@ label[for="menu-bar"]  {
         font-weight: 500;
     }
 
-    body {
-        height: 365vh;
-    }
 }
 
 @media (max-width: 809px) {
@@ -362,14 +353,6 @@ label[for="menu-bar"]  {
     #program {
         color: var(--primary-color);
     }
-   
-    body {
-        height: 330vh;
-    }
-    
-
-
-    
     
     header {
         padding: 10px 20px 10px 10px;
@@ -518,10 +501,6 @@ label[for="menu-bar"]  {
 
     @media (max-width: 610px) {
    
-        body {
-            height: 310vh;
-        }
-
         .billet {
             font-size: 2rem;
             margin: 31px 59px;
@@ -551,40 +530,33 @@ label[for="menu-bar"]  {
         }
         .footer {
       
-            
-            padding: 10px;
+        padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+        #adresse {
              width: 40%;
              margin-top: -16px;
              margin-left: 10px;
              }
                          
                          
-             #insta {
+        #insta {
              width: 100%;
              }
        
-            }
+        }
     
  @media (max-width: 478px) {
    
-    body {
-        height: 400vh;
-    }
     
     main {
         margin: 250px 20px;
     }
 
-   
-
-   
     p {
         font-size: 2rem;
         font-weight: 450;
