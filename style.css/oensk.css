@@ -66,6 +66,8 @@ h2 {
     font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
+/*form hvor man kan ønske*/
+
 form.oensk h2 {
     color: #000;
     margin: 20px 0px;
@@ -86,6 +88,8 @@ form.oensk h2 {
     display: block;
     border: 2px solid var(--primary-color);
 }
+
+/*redigering af ønsk*/
 
 .oensk {
     display: flex;
@@ -370,7 +374,6 @@ label[for="menu-bar"]  {
         width: 320px;
         position: absolute;
         top: 60px;
-        left: 10;
         box-sizing: border-box;
 
         }

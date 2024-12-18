@@ -13,14 +13,13 @@
 <body>
     
     <header>
-        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" class="logo"></a>
+        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" class="logo" loading="lazy"></a>
        
 
         <input type="checkbox" id="menu-bar"><!-- Dette er burgermenuen når skærmen bliver mindre -->
-        <label for="menu-bar"><img class="menubillede" src="img/burger.png" alt="menu" ></label>
+        <label for="menu-bar"><img class="menubillede" src="img/burger.png" alt="menu" loading="lazy"></label>
            
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar"></label>
+      
     
         <nav class="navbar">
             <ul>
@@ -46,7 +45,7 @@
                     </ul>
                 </li>
     
-                <li><a href="#"class="uli">Om Radar</a>
+                <li><a href="#" class="uli">Om Radar</a>
                     <ul>
                         <li><a href="historie.html">Vores værdier</a></li>
                         <li><a href="#">Kontakt</a></li>
@@ -57,13 +56,14 @@
             </ul>
         </nav>
 </header>
+ <!--Dette er siden man kommer hen til når man køber en billet-->
     <main>
         <section class="koeb">
-            <article class="bekræft">
+            <section class="bekræft">
                 <h2>Køb bekræftet</h2>
-                <p id="billettekst">Tillykke! Du har nu købt billet til UNG-SKAB d. 11 april 2025. Nærmere information kommer. Vi glæder os til at se dig<3</p>
+                <p id="billettekst">Tillykke! Du har nu købt billet til UNG-SKAB d. 11 april 2025. Nærmere information kommer. Vi glæder os til at se dig</p>
                 <img src="program/billet.webp" alt="billet">
-            <article>
+            </section>
         </section>
     </main>
         

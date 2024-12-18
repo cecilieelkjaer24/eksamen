@@ -80,6 +80,7 @@ h4 a {
     width: 100%;
 }
 
+/*spotify iframe*/
 .spotify {
    display: flex;
    flex-direction: column;
@@ -91,7 +92,7 @@ h4 a {
 
 .spotify iframe {
     width: 71%;
-    height: 352;
+    height: 352px;
     border-radius: 12px;
    
 }
@@ -337,7 +338,6 @@ label[for="menu-bar"]  {
         width: 320px;
         position: absolute;
         top: 60px;
-        left: 10;
         box-sizing: border-box;
 
         }

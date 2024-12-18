@@ -12,14 +12,12 @@
 <body>
     
     <header>
-        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" class="logo"></a>
+        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" class="logo" loading="lazy"></a>
 
         <input type="checkbox" id="menu-bar"><!-- Dette er burgermenuen når skærmen bliver mindre -->
-        <label for="menu-bar"><img class="menubillede" src="img/burger.png" alt="menu" ></label>
+        <label for="menu-bar"><img class="menubillede" src="img/burger.png" alt="menu" loading="lazy"></label>
            
-        <input type="checkbox" id="menu-bar">
-        <label for="menu-bar"></label>
-    
+     <!--herunder ses navigationsbarren-->
         <nav class="navbar">
             <ul>
                 <li><a href="#">Program</a> 
@@ -45,7 +43,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#"class="uli">Om Radar</a>
+                <li><a href="#" class="uli">Om Radar</a>
                     <ul>
                         <li><a href="historie.html">Vores værdier</a></li>
                         <li><a href="#">Kontakt</a></li>
@@ -60,10 +58,11 @@
     
         <section class="billede2">
             <p>Hos Radar brænder vi for at støtte artister, som eksperimenter med musikken og forskellige nichegenre. Vores lokale spillested er et kulturelt samlingspunkt, hvor du kan opleve autentiske musikoplevelser i en atmosfære, der hylder diversitet, rummelighed og accept. Radar er et åbent rum, hvor både upcoming artister og publikum kan være sig selv og dele deres kærlighed til musikken.</p>
-            <img src="img/billede2.webp" alt="billede">
+            <img src="img/billede2.webp" alt="billede" loading="lazy">
         </section>
    
   
+         <!--her er form til nyhedsbrevet-->
         <form class="nyhedsbrev" action="kalender.html" method="post">
             <article>
                 <h2>Hold dig opdateret og tilmeld dig vores nyhedsbrev!</h2>
@@ -81,7 +80,7 @@
                 <section class="betingelser">
                     <label>
                         <input type="checkbox" id="betingelser" name="betingelser" required>
-                        <p>Jeg accepterer Radars handelsbetingelser, og at Radar må sende mig information omkring nye events, kampagner mm.</p>
+                        Jeg accepterer Radars handelsbetingelser, og at Radar må sende mig information omkring nye events, kampagner mm.
                     </label>
                 </section>
                 <button type="submit">Tilmeld</button>
@@ -90,22 +89,22 @@
         </form>
 
         <h2 id="instaskrift">Følg med på Instagram og deltag i vores konkurrencer</h2>
-        
+         <!--her kan man trykke på billedet og man kommer til instagrammen-->
         <section class="instagram">  
             <p id="instatekst">Vi afslører løbende artister, kommende events samt diverse konkurrencer på vores Instagram. Hvis du ønsker at holde dig opdateret eller vinde billetter og gratis drikkevarer, så besøg Radar via billedet nedenfor, og bliv en del af vores community allerede i dag!</p>    
             <a href="https://www.instagram.com/radarlive/?hl=da">
-            <img src="program/instagram.png" alt="instagramopslag">
+            <img src="program/instagram.png" alt="instagramopslag" loading="lazy">
             </a>
         </section>
  
 
     </main>
         
-   
+    <!--her ses min footer-->
     <footer class="footer">
-        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" id="logo"></a>
-        <a href="https://maps.app.goo.gl/gnCe63zWphHasYLV7"><img src="img/adresse.png" alt="adresse" id="adresse"></a>
-        <a href="https://www.instagram.com/radarlive?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="img/instalogo.png" alt="instagram logo" id="insta"></a>
+        <a href="index.html"><img src="img/logo.lyserood.png" alt="logo" id="logo" loading="lazy"></a>
+        <a href="https://maps.app.goo.gl/gnCe63zWphHasYLV7"><img src="img/adresse.png" alt="adresse" id="adresse" loading="lazy"></a>
+        <a href="https://www.instagram.com/radarlive?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="img/instalogo.png" alt="instagram logo" id="insta" loading="lazy"></a>
     </footer>
 </body>
 </html>
