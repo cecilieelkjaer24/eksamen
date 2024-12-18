@@ -78,13 +78,6 @@ main {
     margin: 40px 120px;
 }
 
-.ungskab img {
-    height: auto;
-    width: 100%;
-
-   
-}
-
 .billet ol {
     color: #000;
     list-style:none;
@@ -285,33 +278,14 @@ label[for="menu-bar"]  {
     }
 
     
-    
-    .spotify a {
-        font-size: 2.5rem;
-    }
-
-    h5 {
-        font-size: 2.5rem;
-    }
-
-    
-
-    
 }
 
 @media (max-width: 809px) {
 
-    #program {
-        color: var(--primary-color);
-    }
-   
-    body {
-        height: 247vh;
-    }
-
     #stott {
         color: var(--primary-color);
     }
+   
     h2 {
         text-align: center;
         color: var(--primary-color);
@@ -465,10 +439,6 @@ label[for="menu-bar"]  {
 
     @media (max-width: 610px) {
    
-        body {
-            height: 200vh;
-        }
-
         h1 {
             text-align: center;
             margin-top: 250px;
@@ -506,23 +476,21 @@ label[for="menu-bar"]  {
         }
       
         .footer {
-      
-            
             padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+         #adresse {
              width: 40%;
              margin-top: -16px;
              margin-left: 10px;
              }
                          
                          
-             #insta {
+        #insta {
              width: 100%;
              }
        
@@ -530,9 +498,6 @@ label[for="menu-bar"]  {
     
  @media (max-width: 478px) {
    
-    body {
-        height: 191vh;
-    }
     
     main {
         margin: 70px 30px;
@@ -562,10 +527,7 @@ label[for="menu-bar"]  {
 
 
     @media (max-width: 1002px) and (min-width: 810px) {
-        body {
-            height: 297vh;
-        }
-           
+     
             header .navbar ul {
                 list-style-type: none;
                 display: flex;
@@ -592,16 +554,7 @@ label[for="menu-bar"]  {
                 font-weight: 1000;
                 font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
             }
-            .spotify a {
-                text-decoration: none;
-                color: #000;
-                font-size: 3rem;
-                text-align: center;
-                font-weight: 600;
-                margin-bottom: 50px;
-                font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
-            }
-    
+          
         }
     
     
@@ -623,8 +576,6 @@ label[for="menu-bar"]  {
                 transform: translate(-50%, -50%);
             }
         
-            body {
-                height: 470vh;
-            }
+           
         }
         
