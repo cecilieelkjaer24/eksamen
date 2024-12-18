@@ -57,7 +57,10 @@ p {
 
 .kalender {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
 .kalender img{
@@ -511,7 +514,7 @@ label[for="menu-bar"]  {
     }
 
     body {
-        height: 345vh;
+        height: 500vh;
     }
 
 }
