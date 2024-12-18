@@ -158,12 +158,10 @@ header .navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 header .navbar ul li {
     position: relative;
-
 }
 
 
@@ -176,14 +174,11 @@ header .navbar ul li a {
     font-size: 30px;
     font-weight: 1000;
     font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
- 
 }
 
 header .navbar ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
-   
-    
 }
 
 
@@ -208,7 +203,6 @@ header .navbar ul li ul li a{
 header .navbar ul li ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
-  
 }
 
 
@@ -254,14 +248,12 @@ label[for="menu-bar"]  {
     width: 30%;
     margin-bottom: -5px;
     margin-left: -50px;
-
 }
 
 
 #insta {
     width: 100%;
     margin-left: -5px;
-   
 }
 
 
@@ -272,13 +264,12 @@ label[for="menu-bar"]  {
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-   
-    }
+        }
 
  
     header .navbar ul li {
         position: relative;
-    }
+        }
 
     header .navbar ul li a {
         text-decoration: none;
@@ -288,7 +279,7 @@ label[for="menu-bar"]  {
         font-size: 1.2rem;
         font-weight: 1000;
         font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
-    }
+        }
 
 }
 
@@ -298,19 +289,19 @@ label[for="menu-bar"]  {
    
     main {
         margin: 20px 100px;
-    }
+        }
     
     h1 {
         font-size: 3.7rem;
         margin-top: 170px;
-    }
+        }
    
     header {
         padding: 10px 20px 10px 0px;
         display: flex;
         justify-content: end;
         height: 80vh;
-    } 
+        } 
 
        
                 
@@ -325,37 +316,31 @@ label[for="menu-bar"]  {
         top: 60px;
         left: 10;
         box-sizing: border-box;
-
-    }
+        }
                 
         label[for="menu-bar"] {
         display: block;
         position: absolute;
         top: 20px;
         right: 20px;
-        cursor: pointer;      
-                
+        cursor: pointer;           
         }
                 
         #menu-bar:checked ~ nav.navbar {
         display: flex;
-       
-       
         }
                 
         .menubillede {
         width: 50px;
-
         }
 
         header .navbar ul {
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         }
 
        
@@ -412,7 +397,6 @@ label[for="menu-bar"]  {
     header .navbar ul li a:active + ul,
     header .navbar ul li a:focus + ul {
         display: block; /* Viser dropdown på klik i mobil */
-       
     }
 
     header .navbar ul li:hover > ul {
@@ -475,26 +459,26 @@ label[for="menu-bar"]  {
     
       
         .footer {
-      
             margin: 0;
             padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+        #adresse {
              width: 40%;
              margin-top: -16px;
+             margin-left: 10px;
              }
                          
                          
-             #insta {
+        #insta {
              width: 100%;
              }
        
-            }
+        }
     
  @media (max-width: 478px) {
    
@@ -529,10 +513,10 @@ label[for="menu-bar"]  {
     }
    
     .nyhedsbrev {
-    margin: 10px;
+        margin: 10px;
     }
                     
-        form.nyhedsbrev input#email, input#fornavn {
+    form.nyhedsbrev input#email, input#fornavn {
         display: block;
         margin-bottom: 0px;
         font-weight: bold;
@@ -540,31 +524,29 @@ label[for="menu-bar"]  {
         width: 300px;
         text-align: center;
         font-size: 1.1rem;
-        border-radius: 10px;
-                        
+        border-radius: 10px;               
         }
                 
                    
 
-        input#betingelser {
+    input#betingelser {
         width: 10%;
         }
 
-        .betingelser p {
+    .betingelser p {
             font-size: 1rem;
             margin: 10px 0px;
         }
 
-        #instaskrift {
+    #instaskrift {
             margin-top: 100px;
             margin-bottom: 0;
         }
 
        
 
-        section.instagram {
-            display: flex
-    ;
+    section.instagram {
+            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -572,6 +554,7 @@ label[for="menu-bar"]  {
             height: 65vh;
             text-align: center;
         }
+    
         .instagram img {
             width: 80%;
             height: auto;
