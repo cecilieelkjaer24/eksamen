@@ -13,15 +13,16 @@
 body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 247vh;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Roboto', "Open sans", sans-serif;
 }
 
 #program {
     color: var(--secondary-color);
 }
-
 
 
 
@@ -41,15 +42,15 @@ h1 {
     font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
 }
 
-p {
-    margin: 50px 150px;
-}
-
 h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 2rem;
     margin: 15px 0;
+}
+
+p {
+    margin: 50px 150px;
 }
 
 .koeb {
@@ -70,7 +71,7 @@ select, button {
     width: 70%;
     padding: 10px;
     margin: 10px 0 0 100px;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 5px;
     border: 1px solid var(--primary-color);
     text-align: center;
@@ -82,7 +83,6 @@ label {
     display: block;
     margin: 10px 0;
     font-weight: bold;
-    
 }
 
 button:hover{
@@ -104,9 +104,6 @@ button:hover{
     font-size: 1.5rem;
    color: #0040ff;
    width: 100%;
-  
-   
-   
 }
 
 #poster {
@@ -129,6 +126,7 @@ p#billettekst {
 .koeb img {
     width: 100%;
 }
+
 form#billet-form {
     display: flex;
     flex-direction: column-reverse;
@@ -249,16 +247,13 @@ label[for="menu-bar"]  {
 
 @media (max-width: 907px) {
 
-    body {
-        height: 240vh;
-    }
+   
     header .navbar ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-   
     }
 
  
@@ -273,8 +268,6 @@ label[for="menu-bar"]  {
         font-weight: 1000;
         font-size: 1.7rem;
         white-space: nowrap;
-        
-      
     }
 
     .logo {
@@ -305,10 +298,6 @@ label[for="menu-bar"]  {
         color: var(--primary-color);
     }
    
-    body {
-        height: 128vh;
-    }
-    
     
     h1 {
         font-size: 3rem;
@@ -432,40 +421,37 @@ label[for="menu-bar"]  {
             margin-top: 30px;
         }
         
-    header .navbar ul li a:active + ul,
-    header .navbar ul li a:focus + ul {
-        display: block; /* Viser dropdown på klik i mobil */
+        header .navbar ul li a:active + ul,
+        header .navbar ul li a:focus + ul {
+            display: block; /* Viser dropdown på klik i mobil */
        
-    }
+        }
 
-    header .navbar ul li:hover > ul {
-        display: none; /* Hover er slået fra i mobilvisning */
-    }
+        header .navbar ul li:hover > ul {
+            display: none; /* Hover er slået fra i mobilvisning */
+        }
                 
 
-    p {
-        text-align: start;
-        font-size: 1.5rem;
-        margin: 25px 70px;
-        font-weight: 500;
-        line-break: auto;
-    }
+        p {
+            text-align: start;
+            font-size: 1.5rem;
+            margin: 25px 70px;
+            font-weight: 500;
+            line-break: auto;
+        }
 
-    #poster {
-        width: 60%;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        margin-left: 102px;
+        #poster {
+            width: 60%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 102px;
     }
 
     }
 
     @media (max-width: 610px) {
    
-        body {
-            height: 190vh;
-        }
-
+    
             .koeb {
                 max-width: 379px;
                 height: auto;
@@ -496,33 +482,29 @@ label[for="menu-bar"]  {
             }
         
        
-        .footer {
-            padding: 10px;
+            .footer {
+                padding: 10px;
              }
                          
-             #logo {
-             display: none;
+            #logo {
+                display: none;
              }
                          
-             #adresse {
-             width: 40%;
-             margin-top: -16px;
-             margin-left: 10px;
+            #adresse {
+                width: 40%;
+                margin-top: -16px;
+                margin-left: 10px;
              }
                          
                          
-             #insta {
-             width: 100%;
+            #insta {
+                width: 100%;
              }
        
             }
     
  @media (max-width: 478px) {
    
-    body {
-        height: 116vh;
-    }
-
     
     main {
         margin: 20px 0px;
@@ -575,18 +557,10 @@ label[for="menu-bar"]  {
             font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
         }
 
-        body {
-            height: 170vh;
-        }
-
     }
 
     @media (min-width: 1003px) {
-    
 
-
-
-  
         p {
             font-size: 2rem;
             font-weight: 450;
@@ -603,10 +577,6 @@ label[for="menu-bar"]  {
         top: 19%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    body {
-        height: 255vh;
     }
 
 }

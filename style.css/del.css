@@ -10,14 +10,16 @@
     --primary-color: #ff00d9;
     --secondary-color:#0040ff;
 }
+
 body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 680vh;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Roboto', "Open sans", sans-serif;
 }
-
 
 .logo {
     position: absolute;

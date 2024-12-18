@@ -10,11 +10,14 @@
     --primary-color: #ff00d9;
     --secondary-color:#0040ff;
 }
+
 body {
     background-image: url(../img/baggrund.webp);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 680vh;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Roboto', "Open sans", sans-serif;
 }
 
@@ -43,7 +46,7 @@ section.story img {
 }
 
 main {
-    margin-top: 233px;
+    margin: 233px 120px 40px 120px;
 }
 #stott {
     color: var(--secondary-color);
@@ -59,20 +62,11 @@ h1 {
 }
 
 
-h2 {
-    text-align: center;
-    color: #000;
-    font-size: 3rem;
-    margin-top: 30px;
-    font-family: 'Orbitron', "Open sans", "Roboto", sans-serif;
-    font-weight: 600;
-}
-
-h4 {
+h4, p {
         text-align: start;
         color: #000;
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 400;
         margin: 40px 60px 40px 60px;
 }
 
@@ -81,25 +75,9 @@ h4 a {
 }
 
 
-
-h6 {
-    text-align: start;
-    font-size: 1.7rem;
-    margin: 60px 225px;
-    font-weight: 500;
-}
-
-
-
-main {
-    margin: 40px 120px;
-}
-
 .ungskab img {
     height: auto;
     width: 100%;
-
-   
 }
 
 .spotify {
@@ -144,8 +122,6 @@ main {
 }
 
 
-
-
 .konkurrence {
     display: flex;
     flex-direction: column;
@@ -165,25 +141,6 @@ main {
 }
 
 
-
-.ungskab-ns {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.ungskab-ns img {
-    width: 70%;
-    height: auto;
-}
-
-.ungskab-ns figcaption {
-    text-align: start;
-    margin: 5px;
-}
 /*Navbarrens redigering*/
 header .navbar ul {
     list-style-type: none;
@@ -347,30 +304,18 @@ label[for="menu-bar"]  {
         font-size: 2.5rem;
     }
 
-    h5 {
-        font-size: 2.5rem;
-    }
-
-    
 
     
 }
 
 @media (max-width: 809px) {
 
-    #program {
-        color: var(--primary-color);
-    }
-   
-    body {
-        height: 271vh;
-    }
 
     #stott {
         color: var(--primary-color);
     }
     
-    h4 {
+    h4, p {
         font-size: 1.8rem;
      
     }
@@ -477,54 +422,36 @@ label[for="menu-bar"]  {
         }
         
         
-    header .navbar ul li a:active + ul,
-    header .navbar ul li a:focus + ul {
-        display: block; /* Viser dropdown på klik i mobil */
+        header .navbar ul li a:active + ul,
+        header .navbar ul li a:focus + ul {
+            display: block; /* Viser dropdown på klik i mobil */
        
-    }
+        }
 
-    header .navbar ul li:hover > ul {
-        display: none; /* Hover er slået fra i mobilvisning */
-    }
+        header .navbar ul li:hover > ul {
+            display: none; /* Hover er slået fra i mobilvisning */
+        }
                 
 
-    p {
-        text-align: start;
-        font-size: 1.5rem;
-        margin: 25px 70px;
-        font-weight: 400;
-        line-break: auto;
-    }
+        .billet {
+            font-size: 2.2rem;
+            margin: 10px 90px;
+        }
 
-    .billet {
-        font-size: 2.2rem;
-        margin: 10px 90px;
-    }
+        .konkurrence h5 {
+            font-size: 1.5rem;
+            margin: 21px 97px;
+        }
 
-    .konkurrence h5 {
-        font-size: 1.5rem;
-        margin: 21px 97px;
-    }
+        .spotify a {
+            font-size: 2rem;
+        }
 
-    .spotify a {
-        font-size: 2rem;
-    }
-
-    h6 {
-        text-align: start;
-        font-size: 1.7rem;
-        margin: 35px 117px;
-        font-weight: 400;
-    }
 
     }
 
     @media (max-width: 610px) {
    
-        body {
-            height: 252vh;
-        }
-
         h1 {
             text-align: center;
             margin-top: 250px;
@@ -541,56 +468,47 @@ label[for="menu-bar"]  {
             /* margin: 20px; */
         }
 
-      main {
-        margin: 20px;
-      }
+        main {
+            margin: 20px;
+        }
 
-      .spotify {
-        margin-top: 0;
-    }
+        .spotify {
+            margin-top: 0;
+        }
+
         .spotify a {
             font-size: 2rem;
             margin: 20px 80px;
         }
 
-        h5 {
-                font-size: 2rem;
-                margin: 20px 80px;
-        
-        }
-        h4 {
+        h4, p {
             font-size: 1.7rem;
         }
     
       
         .footer {
-      
-            
             padding: 10px;
              }
                          
-             #logo {
+        #logo {
              display: none;
              }
                          
-             #adresse {
+         #adresse {
              width: 40%;
              margin-top: -16px;
              margin-left: 10px;
              }
                          
                          
-             #insta {
+        #insta {
              width: 100%;
              }
        
             }
     
  @media (max-width: 478px) {
-   
-    body {
-        height: 214vh;
-    }
+  
     
     main {
         margin: 70px 20px;
@@ -603,11 +521,6 @@ label[for="menu-bar"]  {
     }
 
    
-    p {
-        font-size: 1.3rem;
-        font-weight: 450;
-       
-    }
     .billet {
         font-size: 1.5rem;
         margin: 21px 22px;
@@ -621,7 +534,7 @@ label[for="menu-bar"]  {
         font-size: 1.5rem;
         margin: 20px 59px;
     }
-    h4 {
+    h4, p {
         font-size: 1.3rem;
     }
    
@@ -631,10 +544,6 @@ label[for="menu-bar"]  {
 
     @media (max-width: 1002px) and (min-width: 810px) {
 
-        body {
-            height: 340vh;
-        }
-           
             header .navbar ul {
                 list-style-type: none;
                 display: flex;
@@ -644,13 +553,6 @@ label[for="menu-bar"]  {
                
             }
     
-            
-    
-            p {
-                text-align: start;
-                font-size: 1.7rem;
-                margin: 20px 160px;
-            }
             header .navbar ul li a {
                 text-decoration: none;
                 padding: 40px 0px;
@@ -675,17 +577,12 @@ label[for="menu-bar"]  {
     
         @media (min-width: 1003px) {
           
-            p {
-                text-align: start;
-                font-size: 1.7rem;
-                margin: 40px 178px;
-            }
 
-
-            h4 {
+            h4, p {
                 font-size: 2rem;
                 font-weight: 450;
                 font-family: 'Roboto', "Open sans", sans-serif;
+                margin-bottom: 10px;
             }
         
           
@@ -699,8 +596,5 @@ label[for="menu-bar"]  {
                 transform: translate(-50%, -50%);
             }
         
-            body {
-                height: 580vh;
-            }
            
         }
